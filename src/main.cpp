@@ -76,7 +76,11 @@ int main(int argc, char* argv[]) {
     std::string contextLevelStr = "targeted";
 
     // Check environment variable
-    if (const char* envThresh = std::getenv("EDMO_LLM_CONFIDENCE_THRESHOLD")) {
+    const char* envThresh = std::getenv("OCR_LLM_CONFIDENCE_THRESHOLD");
+    if (!envThresh) {
+        envThresh = std::getenv("EDMO_LLM_CONFIDENCE_THRESHOLD");
+    }
+    if (envThresh) {
         try {
             llmThreshold = std::stof(envThresh);
         } catch (...) {}
