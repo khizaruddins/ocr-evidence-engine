@@ -3,7 +3,7 @@
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Structured problem diagnosis explaining why a field requires resolution or failed resolution.
@@ -42,4 +42,4 @@ struct ResolutionProblem {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

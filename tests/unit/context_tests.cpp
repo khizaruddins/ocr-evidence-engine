@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/context/TargetedLlmContextBuilder.hpp>
+#include <ocr/evidence/context/TargetedLlmContextBuilder.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(TargetedLlmContextBuilderTests, NoTasksWhenAllTrusted) {
     EvidenceDocument doc;

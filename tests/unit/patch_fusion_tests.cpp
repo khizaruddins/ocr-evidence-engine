@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/fusion/ConfidenceFusionEngine.hpp>
+#include <ocr/evidence/fusion/ConfidenceFusionEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(PatchFusionTests, FusionV1FormulaCalculation) {
     ConfidenceFusionEngine engine;

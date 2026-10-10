@@ -1,14 +1,14 @@
-# EDMO Evidence Intelligence Engine v0.1 - Architecture
+# OCR Evidence Intelligence Engine v0.1 - Architecture
 
 ## 1. System Role & Philosophy
 
-The **EDMO Evidence Intelligence Engine** acts as the high-speed, deterministic semantic bridge between the raw OCR generation layer and downstream intelligence services.
+The **OCR Evidence Intelligence Engine** acts as the high-speed, deterministic semantic bridge between the raw OCR generation layer and downstream intelligence services.
 
 ```mermaid
 graph TD
     A[Input PDF / Image] --> B[EDMO C++ OCR Engine]
     B --> C[Raw OCR + Full EDR JSON]
-    C --> D[EDMO Evidence Intelligence Engine]
+    C --> D[OCR Evidence Intelligence Engine]
     D --> E[Parser & Extractor]
     E --> F[Confidence Engine]
     F --> G[Deterministic OCR Correction]

@@ -4,7 +4,7 @@
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Structural classification of document and table elements.
@@ -114,4 +114,4 @@ enum class ResolutionStatus {
            sc == StructuralClass::Placeholder;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

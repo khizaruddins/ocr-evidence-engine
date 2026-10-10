@@ -1,16 +1,16 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/patch/LlmPatchTypes.hpp>
-#include <edmo/evidence/patch/LlmPatchValidator.hpp>
-#include <edmo/evidence/fusion/ConfidenceFusionEngine.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/patch/LlmPatchTypes.hpp>
+#include <ocr/evidence/patch/LlmPatchValidator.hpp>
+#include <ocr/evidence/fusion/ConfidenceFusionEngine.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct EnhancedEdrResult {
     std::string schemaVersion = "edr-enhanced-0.1";
@@ -64,4 +64,4 @@ private:
     ConfidenceFusionEngine fusionEngine_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

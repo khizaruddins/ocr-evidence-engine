@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
 
 #include <filesystem>
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Serializes enriched evidence outputs to standard JSON structures and files on disk.
@@ -50,4 +50,4 @@ public:
     );
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

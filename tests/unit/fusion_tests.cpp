@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/fusion/EvidenceFusionEngine.hpp>
+#include <ocr/evidence/fusion/EvidenceFusionEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(EvidenceFusionTests, SingleFieldFusion) {
     EvidenceFusionEngine fusion;

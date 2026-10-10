@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
 
 #include <filesystem>
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Zero-loss parser for Full EDR JSON documents produced by EDMO OCR Engine.
@@ -24,4 +24,4 @@ public:
     [[nodiscard]] static EvidenceDocument parseFile(const std::filesystem::path& path);
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

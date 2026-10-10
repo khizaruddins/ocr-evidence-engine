@@ -1,17 +1,17 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/Fates.hpp>
-#include <edmo/evidence/structure/StructuralTypes.hpp>
-#include <edmo/evidence/normalization/FieldValueNormalizer.hpp>
-#include <edmo/evidence/resolution/ResolutionProblem.hpp>
-#include <edmo/evidence/resolution/ResolutionStrategy.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/Fates.hpp>
+#include <ocr/evidence/structure/StructuralTypes.hpp>
+#include <ocr/evidence/normalization/FieldValueNormalizer.hpp>
+#include <ocr/evidence/resolution/ResolutionProblem.hpp>
+#include <ocr/evidence/resolution/ResolutionStrategy.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Candidate correction generated during deterministic OCR correction.
@@ -265,4 +265,4 @@ struct EvidenceField {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

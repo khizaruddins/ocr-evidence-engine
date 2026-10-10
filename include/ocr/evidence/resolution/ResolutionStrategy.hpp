@@ -3,7 +3,7 @@
 #include <string_view>
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Resolution strategy to be applied to an unresolved field.
@@ -67,4 +67,4 @@ enum class AiWorkflowState {
     return AiWorkflowState::NotStarted;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

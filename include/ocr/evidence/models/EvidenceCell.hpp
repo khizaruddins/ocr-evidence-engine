@@ -1,14 +1,14 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/EvidenceToken.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/EvidenceToken.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents an individual cell within an evidence table.
@@ -49,4 +49,4 @@ struct EvidenceCell {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

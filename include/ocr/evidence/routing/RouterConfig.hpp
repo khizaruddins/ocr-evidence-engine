@@ -1,6 +1,6 @@
 #pragma once
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Routing thresholds and budget for determining whether to TRUST deterministic resolution or require LLM.
@@ -14,4 +14,4 @@ struct RouterConfig {
     bool enableDeduplication = true; ///< Prevent duplicate tasks for the same semantic field
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

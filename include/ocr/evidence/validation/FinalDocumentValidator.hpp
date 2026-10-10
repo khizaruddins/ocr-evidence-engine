@@ -4,7 +4,7 @@
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct FinalValidationResult {
     bool valid = true;
@@ -36,4 +36,4 @@ public:
     );
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

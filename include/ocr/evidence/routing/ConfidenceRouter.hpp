@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/confidence/ConfidenceComparator.hpp>
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/routing/RouterConfig.hpp>
+#include <ocr/evidence/confidence/ConfidenceComparator.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/routing/RouterConfig.hpp>
 
 #include <vector>
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct LlmRoutingDecision {
     bool eligible = false;
@@ -127,4 +127,4 @@ private:
     RouterConfig config_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

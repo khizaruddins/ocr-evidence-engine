@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/resolution/ResolutionProblem.hpp>
-#include <edmo/evidence/resolution/ResolutionStrategy.hpp>
-#include <edmo/evidence/routing/RouterConfig.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/resolution/ResolutionProblem.hpp>
+#include <ocr/evidence/resolution/ResolutionStrategy.hpp>
+#include <ocr/evidence/routing/RouterConfig.hpp>
 
 #include <vector>
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Analysis result produced by ResolutionAnalyzer for a single field.
@@ -122,4 +122,4 @@ private:
     ) const noexcept;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

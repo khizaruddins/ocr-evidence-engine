@@ -5,7 +5,7 @@
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief High-resolution microsecond timer for stage-by-stage pipeline performance benchmarking.
@@ -61,4 +61,4 @@ private:
     std::map<std::string, long long> durationsUs_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

@@ -4,7 +4,7 @@
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct FusionWeights {
     float ocr = 0.20f;
@@ -87,4 +87,4 @@ private:
     FusionPolicy policy_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

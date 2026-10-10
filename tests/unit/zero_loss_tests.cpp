@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/validation/ZeroLossAuditor.hpp>
+#include <ocr/evidence/validation/ZeroLossAuditor.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(ZeroLossAuditorTests, FullAccountingZeroUnaccountedLoss) {
     EvidenceDocument doc;

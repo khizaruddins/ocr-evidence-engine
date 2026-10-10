@@ -6,7 +6,7 @@
 #include <unordered_set>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 enum class DictionaryType {
     General,
@@ -79,4 +79,4 @@ private:
     std::vector<std::string> domainTermsList_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

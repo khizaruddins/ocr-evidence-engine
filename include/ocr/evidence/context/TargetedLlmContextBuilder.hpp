@@ -1,13 +1,13 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Context expansion level for targeted evidence retrieval.
@@ -62,4 +62,4 @@ public:
     [[nodiscard]] static int estimateTokens(const nlohmann::json& contextJson) noexcept;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

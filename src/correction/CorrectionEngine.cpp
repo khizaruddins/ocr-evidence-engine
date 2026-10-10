@@ -1,10 +1,10 @@
-#include <edmo/evidence/correction/CorrectionEngine.hpp>
+#include <ocr/evidence/correction/CorrectionEngine.hpp>
 
 #include <algorithm>
 #include <regex>
 #include <sstream>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -309,4 +309,4 @@ CorrectionResult CorrectionEngine::correctGeneralText(
     return res;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

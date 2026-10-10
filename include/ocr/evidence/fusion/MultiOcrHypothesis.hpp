@@ -4,7 +4,7 @@
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents an OCR hypothesis from an independent OCR pass or engine.
@@ -44,4 +44,4 @@ struct MultiOcrInput {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

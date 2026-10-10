@@ -1,6 +1,6 @@
-#include <edmo/evidence/validation/ZeroLossAuditor.hpp>
+#include <ocr/evidence/validation/ZeroLossAuditor.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 ZeroLossReport ZeroLossAuditor::audit(
     const EvidenceDocument& doc,
@@ -54,4 +54,4 @@ ZeroLossReport ZeroLossAuditor::audit(
     return report;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

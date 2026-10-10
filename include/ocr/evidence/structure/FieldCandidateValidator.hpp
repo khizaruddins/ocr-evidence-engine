@@ -1,13 +1,13 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/structure/CourseRowDetector.hpp>
-#include <edmo/evidence/structure/StructuralClassifier.hpp>
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/structure/CourseRowDetector.hpp>
+#include <ocr/evidence/structure/StructuralClassifier.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
 
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Result of field candidate semantic validation.
@@ -41,4 +41,4 @@ private:
     CourseRowDetector courseRowDetector_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

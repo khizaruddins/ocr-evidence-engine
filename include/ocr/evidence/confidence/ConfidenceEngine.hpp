@@ -1,13 +1,13 @@
 #pragma once
 
-#include <edmo/evidence/confidence/ConfidenceConfig.hpp>
-#include <edmo/evidence/models/EvidenceBlock.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/models/EvidenceTable.hpp>
+#include <ocr/evidence/confidence/ConfidenceConfig.hpp>
+#include <ocr/evidence/models/EvidenceBlock.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/models/EvidenceTable.hpp>
 
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Multi-level confidence calculation engine for tokens, blocks, cells, rows, fields, and documents.
@@ -53,4 +53,4 @@ private:
     ConfidenceConfig config_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

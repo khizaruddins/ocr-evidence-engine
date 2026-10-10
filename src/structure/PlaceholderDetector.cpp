@@ -1,9 +1,9 @@
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
 
 #include <algorithm>
 #include <cctype>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -77,4 +77,4 @@ bool PlaceholderDetector::isLabeledPlaceholder(std::string_view text) noexcept {
     return isPlaceholder(trimmed);
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

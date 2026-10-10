@@ -352,7 +352,7 @@
     "ocr_confident": 0,
     "unresolved": 0
   },
-  "schema_version": "edmo-final-document-0.1",
+  "schema_version": "ocr-final-document-0.1",
   "student": {
     "birthdate": "Jun 26 1997",
     "name": "Sophia Jones",

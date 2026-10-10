@@ -1,8 +1,8 @@
-#include <edmo/evidence/correction/ContextualCorrectionEngine.hpp>
+#include <ocr/evidence/correction/ContextualCorrectionEngine.hpp>
 
 #include <algorithm>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 ContextualCorrectionEngine::ContextualCorrectionEngine(
     std::shared_ptr<CorrectionEngine> baseEngine
@@ -39,4 +39,4 @@ void ContextualCorrectionEngine::applyContextualCorrections(
     }
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

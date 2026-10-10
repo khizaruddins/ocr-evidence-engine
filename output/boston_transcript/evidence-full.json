@@ -19,7 +19,7 @@
     "source": "/home/khizaruddin/Downloads/Domestic TRANSCRIPT_OFFICIAL_UPLOAD_Redacted.pdf"
   },
   "engine": {
-    "name": "edmo-ocr",
+    "name": "ocr-engine",
     "provider": "tesseract",
     "version": "0.1.0"
   },

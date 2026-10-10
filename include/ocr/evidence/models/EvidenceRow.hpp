@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceCell.hpp>
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceCell.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <map>
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents a row in an evidence table with cell collections and canonical field mappings.
@@ -53,4 +53,4 @@ struct EvidenceRow {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

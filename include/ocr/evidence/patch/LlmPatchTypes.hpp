@@ -1,13 +1,13 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
 
 #include <string>
 #include <vector>
 #include <optional>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Source provenance coordinates in an LLM patch.
@@ -119,7 +119,7 @@ struct LlmModelInfo {
  * @brief Root payload representing an LLM Patch / Resolution Response document.
  */
 struct LlmPatchDocument {
-    std::string schemaVersion = "edmo-llm-resolution-response-0.1";
+    std::string schemaVersion = "ocr-llm-resolution-response-0.1";
     std::string documentId;
     LlmModelInfo model;
     std::vector<LlmPatch> patches;
@@ -141,7 +141,7 @@ struct LlmPatchDocument {
     [[nodiscard]] static LlmPatchDocument fromJson(const nlohmann::json& j) {
         LlmPatchDocument doc;
         if (!j.is_object()) return doc;
-        doc.schemaVersion = j.value("schema_version", "edmo-llm-resolution-response-0.1");
+        doc.schemaVersion = j.value("schema_version", "ocr-llm-resolution-response-0.1");
         doc.documentId = j.value("document_id", "");
         if (j.contains("model") && j["model"].is_object()) {
             doc.model = LlmModelInfo::fromJson(j["model"]);
@@ -239,4 +239,4 @@ struct PatchAuditReport {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

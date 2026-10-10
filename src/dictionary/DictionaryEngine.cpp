@@ -1,11 +1,11 @@
-#include <edmo/evidence/dictionary/DictionaryEngine.hpp>
+#include <ocr/evidence/dictionary/DictionaryEngine.hpp>
 
 #include <algorithm>
 #include <fstream>
 #include <sstream>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 DictionaryEngine::DictionaryEngine() {
     loadEmbeddedDefaults();
@@ -203,4 +203,4 @@ bool DictionaryEngine::loadDictionariesFromDir(const std::filesystem::path& dirP
     return true;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

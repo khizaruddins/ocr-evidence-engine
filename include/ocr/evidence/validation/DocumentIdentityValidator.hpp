@@ -5,7 +5,7 @@
 #include <optional>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct DocumentIdentityValidationResult {
     bool valid = true;
@@ -63,4 +63,4 @@ public:
     static std::string extractDocumentId(const nlohmann::json& j);
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

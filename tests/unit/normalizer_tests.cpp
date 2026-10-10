@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/normalization/FieldValueNormalizer.hpp>
+#include <ocr/evidence/normalization/FieldValueNormalizer.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(NormalizerTests, NormalizeStudentIdWithPrefixAndColon) {
     auto res1 = FieldValueNormalizer::normalize("student_id", ": 712398456", "STUDENT ID");

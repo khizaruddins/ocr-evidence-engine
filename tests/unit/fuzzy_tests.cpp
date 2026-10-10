@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/fuzzy/FuzzyMatcher.hpp>
+#include <ocr/evidence/fuzzy/FuzzyMatcher.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(FuzzyMatcherTests, NormalizedLevenshteinIdentical) {
     EXPECT_FLOAT_EQ(FuzzyMatcher::normalizedLevenshtein("MATHEMATICS", "MATHEMATICS"), 1.0f);

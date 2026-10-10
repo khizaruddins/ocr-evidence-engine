@@ -1,9 +1,9 @@
-#include <edmo/evidence/serialization/EvidenceJsonSerializer.hpp>
+#include <ocr/evidence/serialization/EvidenceJsonSerializer.hpp>
 
 #include <fstream>
 #include <numeric>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 nlohmann::json EvidenceJsonSerializer::buildFullEvidenceJson(
     const EvidenceDocument& doc,
@@ -196,4 +196,4 @@ bool EvidenceJsonSerializer::saveEnhancedOutputs(
     return ok1 && ok2 && ok3 && ok4;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

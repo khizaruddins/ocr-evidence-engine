@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/confidence/ConfidenceEngine.hpp>
-#include <edmo/evidence/fusion/MultiOcrHypothesis.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/confidence/ConfidenceEngine.hpp>
+#include <ocr/evidence/fusion/MultiOcrHypothesis.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <memory>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Fuses original OCR, correction candidates, dictionary matches, structural cues, and multi-OCR hypotheses.
@@ -40,4 +40,4 @@ private:
     std::shared_ptr<ConfidenceEngine> confidenceEngine_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

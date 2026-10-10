@@ -1,9 +1,9 @@
-#include <edmo/evidence/fusion/EvidenceFusionEngine.hpp>
+#include <ocr/evidence/fusion/EvidenceFusionEngine.hpp>
 
 #include <algorithm>
 #include <cmath>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 EvidenceFusionEngine::EvidenceFusionEngine(
     std::shared_ptr<ConfidenceEngine> confidenceEngine
@@ -100,4 +100,4 @@ OcrHypothesis EvidenceFusionEngine::fuseMultiOcr(
     return result;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

@@ -1,14 +1,14 @@
 #pragma once
 
-#include <edmo/evidence/confidence/ConfidenceConfig.hpp>
-#include <edmo/evidence/routing/RouterConfig.hpp>
-#include <edmo/evidence/fusion/ConfidenceFusionEngine.hpp>
-#include <edmo/evidence/context/TargetedLlmContextBuilder.hpp>
+#include <ocr/evidence/confidence/ConfidenceConfig.hpp>
+#include <ocr/evidence/routing/RouterConfig.hpp>
+#include <ocr/evidence/fusion/ConfidenceFusionEngine.hpp>
+#include <ocr/evidence/context/TargetedLlmContextBuilder.hpp>
 
 #include <filesystem>
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Top-level configuration options for Evidence Intelligence Engine pipeline execution.
@@ -34,4 +34,4 @@ struct PipelineConfig {
     bool debug = false;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

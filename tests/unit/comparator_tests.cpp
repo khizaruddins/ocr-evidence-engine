@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/confidence/ConfidenceComparator.hpp>
+#include <ocr/evidence/confidence/ConfidenceComparator.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(ComparatorTests, FloatPrecisionHighConfidenceCheck) {
     float threshold = 0.95f;

@@ -1,9 +1,9 @@
-#include <edmo/evidence/context/TargetedLlmContextBuilder.hpp>
+#include <ocr/evidence/context/TargetedLlmContextBuilder.hpp>
 
 #include <iomanip>
 #include <sstream>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -225,7 +225,7 @@ nlohmann::json TargetedLlmContextBuilder::buildContext(
     ContextLevel contextLevel
 ) {
     nlohmann::json j{
-        {"schema_version", "edmo-llm-context-0.1"},
+        {"schema_version", "ocr-llm-context-0.1"},
         {"document", {
             {"id", doc.metadata.id},
             {"type", doc.metadata.type},
@@ -316,7 +316,7 @@ nlohmann::json TargetedLlmContextBuilder::buildResolutionRequest(
     std::string docType = doc.metadata.type.empty() ? "transcript" : doc.metadata.type;
 
     nlohmann::json j{
-        {"schema_version", "edmo-llm-resolution-request-0.1"},
+        {"schema_version", "ocr-llm-resolution-request-0.1"},
         {"document_id", doc.metadata.id},
         {"document_type", docType},
         {"resolution_mode", "FIELD_CORRECTION"},
@@ -371,7 +371,7 @@ nlohmann::json TargetedLlmContextBuilder::buildResolutionRequest(
         task["evidence"] = buildTargetedEvidence(doc, field, contextLevel);
 
         task["resolution_instruction"] = "Resolve the " + field.field +
-            " strictly using only the supplied targeted evidence. Do not invent missing values. Return strict JSON in schema edmo-llm-resolution-response-0.1 format.";
+            " strictly using only the supplied targeted evidence. Do not invent missing values. Return strict JSON in schema ocr-llm-resolution-response-0.1 format.";
 
         if (!field.term.empty()) {
             task["term"] = field.term;
@@ -401,4 +401,4 @@ int TargetedLlmContextBuilder::estimateTokens(const nlohmann::json& contextJson)
     return static_cast<int>(dumped.size() / 4);
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

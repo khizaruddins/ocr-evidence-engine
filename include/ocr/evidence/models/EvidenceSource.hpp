@@ -5,7 +5,7 @@
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief 2D bounding box representing spatial layout geometry.
@@ -103,4 +103,4 @@ struct EvidenceSource {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

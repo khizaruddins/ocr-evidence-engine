@@ -1,11 +1,11 @@
 #pragma once
 
-#include <edmo/evidence/extraction/IFieldExtractor.hpp>
-#include <edmo/evidence/structure/StructuralClassifier.hpp>
-#include <edmo/evidence/structure/CourseRowDetector.hpp>
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/extraction/IFieldExtractor.hpp>
+#include <ocr/evidence/structure/StructuralClassifier.hpp>
+#include <ocr/evidence/structure/CourseRowDetector.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Domain field extractor for academic transcripts.
@@ -53,5 +53,5 @@ private:
     ) const;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence
 

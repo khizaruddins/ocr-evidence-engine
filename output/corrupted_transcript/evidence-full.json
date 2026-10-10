@@ -16,7 +16,7 @@
     "source": "synthetic_corrupted_test_case.pdf"
   },
   "engine": {
-    "name": "edmo-ocr",
+    "name": "ocr-engine",
     "provider": "tesseract",
     "version": "0.1.0"
   },

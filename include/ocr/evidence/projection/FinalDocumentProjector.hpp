@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
 
 #include <chrono>
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct FinalizationReport {
     std::string schemaVersion = "finalization-report-0.1";
@@ -70,5 +70,5 @@ public:
     );
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence
 

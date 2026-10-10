@@ -1,10 +1,10 @@
-#include <edmo/evidence/structure/StructuralClassifier.hpp>
+#include <ocr/evidence/structure/StructuralClassifier.hpp>
 
 #include <algorithm>
 #include <cctype>
 #include <regex>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -239,4 +239,4 @@ StructuralClass StructuralClassifier::classifyText(std::string_view text) const 
     return StructuralClass::Data;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

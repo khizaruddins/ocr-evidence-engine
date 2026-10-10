@@ -1,14 +1,14 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceBlock.hpp>
-#include <edmo/evidence/models/EvidenceToken.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceBlock.hpp>
+#include <ocr/evidence/models/EvidenceToken.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents a physical page with its blocks and layout geometry.
@@ -43,4 +43,4 @@ struct EvidencePage {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

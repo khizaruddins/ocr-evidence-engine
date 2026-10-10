@@ -1,10 +1,10 @@
-#include <edmo/evidence/fuzzy/FuzzyMatcher.hpp>
+#include <ocr/evidence/fuzzy/FuzzyMatcher.hpp>
 
 #include <algorithm>
 #include <cmath>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 int FuzzyMatcher::levenshteinDistance(
     std::string_view s1,
@@ -150,4 +150,4 @@ std::vector<FuzzyMatchResult> FuzzyMatcher::findMatches(
     return results;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

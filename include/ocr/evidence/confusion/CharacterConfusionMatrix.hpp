@@ -6,7 +6,7 @@
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct ConfusionEntry {
     std::string from;
@@ -66,4 +66,4 @@ private:
     std::map<std::string, std::vector<std::pair<std::string, float>>> substitutions_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

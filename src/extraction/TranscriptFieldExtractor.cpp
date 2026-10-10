@@ -1,11 +1,11 @@
-#include <edmo/evidence/extraction/TranscriptFieldExtractor.hpp>
+#include <ocr/evidence/extraction/TranscriptFieldExtractor.hpp>
 
 #include <algorithm>
 #include <regex>
 #include <set>
 #include <sstream>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -910,4 +910,4 @@ void TranscriptFieldExtractor::extractUnclassifiedFields(
     }
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

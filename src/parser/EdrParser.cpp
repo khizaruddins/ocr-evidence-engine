@@ -1,4 +1,4 @@
-#include <edmo/evidence/parser/EdrParser.hpp>
+#include <ocr/evidence/parser/EdrParser.hpp>
 
 #include <algorithm>
 #include <cctype>
@@ -7,7 +7,7 @@
 #include <string>
 #include <string_view>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -88,7 +88,7 @@ EvidenceDocument EdrParser::parseJson(const nlohmann::json& root) {
     // 2. Engine info
     if (root.contains("engine") && root["engine"].is_object()) {
         const auto& engObj = root["engine"];
-        doc.engine.name = engObj.value("name", "edmo-ocr");
+        doc.engine.name = engObj.value("name", "ocr-engine");
         doc.engine.provider = engObj.value("provider", "tesseract");
         doc.engine.version = engObj.value("version", "0.1.0");
     }
@@ -362,4 +362,4 @@ EvidenceDocument EdrParser::parseJson(const nlohmann::json& root) {
     return doc;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

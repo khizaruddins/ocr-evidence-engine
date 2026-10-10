@@ -1,9 +1,9 @@
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
-#include <edmo/evidence/serialization/EvidenceJsonSerializer.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
-#include <edmo/evidence/validation/DocumentIdentityValidator.hpp>
-#include <edmo/evidence/validation/FinalDocumentValidator.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/serialization/EvidenceJsonSerializer.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/validation/DocumentIdentityValidator.hpp>
+#include <ocr/evidence/validation/FinalDocumentValidator.hpp>
 
 #include <cstdlib>
 #include <filesystem>
@@ -17,7 +17,7 @@ namespace {
 
 void printHelp(const char* progName) {
     std::cout << "======================================================\n"
-              << "  EDMO Evidence Intelligence Engine v0.3 (CLI)\n"
+              << "  OCR Evidence Intelligence Engine v0.3 (CLI)\n"
               << "======================================================\n\n"
               << "Usage:\n"
               << "  " << progName << " --input <full-edr.json> [options]\n\n"
@@ -134,7 +134,7 @@ int main(int argc, char* argv[]) {
             "data/dictionaries",
             "../data/dictionaries",
             "../../data/dictionaries",
-            "edmo-evidence-engine/data/dictionaries"
+            "ocr-evidence-engine/data/dictionaries"
         };
         for (const auto& cand : candidates) {
             if (std::filesystem::exists(cand)) {
@@ -149,7 +149,7 @@ int main(int argc, char* argv[]) {
             "data/confusion/ocr-character-confusions.json",
             "../data/confusion/ocr-character-confusions.json",
             "../../data/confusion/ocr-character-confusions.json",
-            "edmo-evidence-engine/data/confusion/ocr-character-confusions.json"
+            "ocr-evidence-engine/data/confusion/ocr-character-confusions.json"
         };
         for (const auto& cand : candidates) {
             if (std::filesystem::exists(cand)) {
@@ -159,7 +159,7 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    edmo::evidence::PipelineConfig config;
+    ocr::evidence::PipelineConfig config;
     config.documentId = documentId;
     config.documentType = documentType;
     config.dictionariesDir = dictionariesDir;
@@ -171,17 +171,17 @@ int main(int argc, char* argv[]) {
     config.verbose = verbose;
     config.debug = debug;
     if (contextLevelStr == "expanded" || contextLevelStr == "EXPANDED") {
-        config.contextLevel = edmo::evidence::ContextLevel::Expanded;
+        config.contextLevel = ocr::evidence::ContextLevel::Expanded;
     } else {
-        config.contextLevel = edmo::evidence::ContextLevel::Targeted;
+        config.contextLevel = ocr::evidence::ContextLevel::Targeted;
     }
 
     try {
-        edmo::evidence::EvidencePipeline pipeline(config);
+        ocr::evidence::EvidencePipeline pipeline(config);
         auto result = pipeline.processFile(inputPath);
 
         // Save standard forward path outputs
-        edmo::evidence::EvidenceJsonSerializer::savePipelineOutputs(result, outputDir, true);
+        ocr::evidence::EvidenceJsonSerializer::savePipelineOutputs(result, outputDir, true);
 
         if (!singleOutputFile.empty()) {
             std::ofstream out(singleOutputFile);
@@ -189,7 +189,7 @@ int main(int argc, char* argv[]) {
         }
 
         std::cout << "\n======================================================\n"
-                  << "  EDMO Evidence Intelligence Engine v0.3\n"
+                  << "  OCR Evidence Intelligence Engine v0.3\n"
                   << "======================================================\n\n";
 
         std::cout << "Document ID:     " << result.document.metadata.id << "\n";
@@ -219,7 +219,7 @@ int main(int argc, char* argv[]) {
         std::cout << "LLM Routing:\n"
                   << "  LLM Required:     " << (result.llmRequired ? "YES" : "NO") << "\n"
                   << "  Unresolved Tasks: " << result.llmTaskCount << "\n"
-                  << "  Estimated Tokens: " << edmo::evidence::TargetedLlmContextBuilder::estimateTokens(result.evidenceLlm) << "\n\n";
+                  << "  Estimated Tokens: " << ocr::evidence::TargetedLlmContextBuilder::estimateTokens(result.evidenceLlm) << "\n\n";
 
         std::cout << "Zero-Loss Quality Gate:\n"
                   << "  Source Items:      " << result.zeroLossReport.totalSourceItems << "\n"
@@ -238,7 +238,7 @@ int main(int argc, char* argv[]) {
                       << "  Resolution Request written to: " << (std::filesystem::absolute(outputDir) / "llm-resolution-request.json").string() << "\n\n";
 
             nlohmann::json finalizationReport = {
-                {"schema_version", "edmo-finalization-report-0.1"},
+                {"schema_version", "ocr-finalization-report-0.1"},
                 {"document_id", result.document.metadata.id},
                 {"status", "LLM_RESOLUTION_REQUIRED"},
                 {"document_readiness", "RESOLUTION_PENDING"},
@@ -255,8 +255,8 @@ int main(int argc, char* argv[]) {
             return 0;
         }
 
-        edmo::evidence::EdrPatchEngine patchEngine(edmo::evidence::ConfidenceFusionEngine(config.fusionPolicy));
-        edmo::evidence::EnhancedEdrResult enhancedResult;
+        ocr::evidence::EdrPatchEngine patchEngine(ocr::evidence::ConfidenceFusionEngine(config.fusionPolicy));
+        ocr::evidence::EnhancedEdrResult enhancedResult;
         nlohmann::json patchReportJson;
 
         if (!llmPatchPath.empty()) {
@@ -279,7 +279,7 @@ int main(int argc, char* argv[]) {
                       << "  Patches Rejected: " << enhancedResult.patchReport.rejected << "\n\n";
         } else {
             // LLM Skipped / Not Required Path: Create Enhanced EDR directly from trusted/deterministic forward evidence
-            edmo::evidence::LlmPatchDocument emptyPatchDoc;
+            ocr::evidence::LlmPatchDocument emptyPatchDoc;
             emptyPatchDoc.documentId = result.document.metadata.id;
             enhancedResult = patchEngine.applyPatches(result.document, result.fields, emptyPatchDoc);
             patchReportJson = {
@@ -294,10 +294,10 @@ int main(int argc, char* argv[]) {
             };
         }
 
-        auto finalDocJson = edmo::evidence::FinalDocumentProjector::project(enhancedResult, result.document);
+        auto finalDocJson = ocr::evidence::FinalDocumentProjector::project(enhancedResult, result.document);
 
         // Validate Final Document against schema and Enhanced EDR
-        auto valRes = edmo::evidence::FinalDocumentValidator::validate(
+        auto valRes = ocr::evidence::FinalDocumentValidator::validate(
             finalDocJson,
             enhancedResult.enhancedEdrJson,
             result.document.metadata.id
@@ -314,13 +314,13 @@ int main(int argc, char* argv[]) {
         int64_t finalizationMs = std::chrono::duration_cast<std::chrono::milliseconds>(finalizationEnd - finalizationStart).count();
         if (finalizationMs == 0) finalizationMs = 1;
 
-        auto finalizationReport = edmo::evidence::FinalDocumentProjector::buildFinalizationReport(
+        auto finalizationReport = ocr::evidence::FinalDocumentProjector::buildFinalizationReport(
             enhancedResult,
             finalDocJson,
             finalizationMs
         );
 
-        edmo::evidence::EvidenceJsonSerializer::saveEnhancedOutputs(
+        ocr::evidence::EvidenceJsonSerializer::saveEnhancedOutputs(
             enhancedResult.enhancedEdrJson,
             finalDocJson,
             patchReportJson,

@@ -17,7 +17,7 @@
     "source": "/home/khizaruddin/Downloads/Sophia Jones Transcript.pdf"
   },
   "engine": {
-    "name": "edmo-ocr",
+    "name": "ocr-engine",
     "provider": "tesseract",
     "version": "0.2.0"
   },

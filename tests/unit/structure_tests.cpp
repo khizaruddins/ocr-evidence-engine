@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
-#include <edmo/evidence/structure/StructuralClassifier.hpp>
-#include <edmo/evidence/structure/CourseRowDetector.hpp>
-#include <edmo/evidence/structure/FieldCandidateValidator.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/structure/StructuralClassifier.hpp>
+#include <ocr/evidence/structure/CourseRowDetector.hpp>
+#include <ocr/evidence/structure/FieldCandidateValidator.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(StructureTests, PlaceholderAndSeparatorDetection) {
     EXPECT_TRUE(PlaceholderDetector::isSeparatorLine("-----------------"));

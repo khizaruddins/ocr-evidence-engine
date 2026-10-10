@@ -4,7 +4,7 @@
 #include <string_view>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct FuzzyMatchResult {
     std::string candidate;
@@ -61,4 +61,4 @@ public:
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

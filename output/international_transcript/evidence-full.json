@@ -13,7 +13,7 @@
     "source": "/home/khizaruddin/Downloads/International transcript-IND_Redacted_compressed.pdf"
   },
   "engine": {
-    "name": "edmo-ocr",
+    "name": "ocr-engine",
     "provider": "tesseract",
     "version": "0.1.0"
   },

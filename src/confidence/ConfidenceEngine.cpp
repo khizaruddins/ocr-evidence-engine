@@ -1,9 +1,9 @@
-#include <edmo/evidence/confidence/ConfidenceEngine.hpp>
+#include <ocr/evidence/confidence/ConfidenceEngine.hpp>
 
 #include <algorithm>
 #include <numeric>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 float ConfidenceEngine::calculateFieldConfidence(
     const EvidenceField& field,
@@ -92,4 +92,4 @@ ConfidenceSummary ConfidenceEngine::calculateTableSummary(
     return summary;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

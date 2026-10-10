@@ -1,11 +1,11 @@
-#include <edmo/evidence/confusion/CharacterConfusionMatrix.hpp>
+#include <ocr/evidence/confusion/CharacterConfusionMatrix.hpp>
 
 #include <algorithm>
 #include <fstream>
 #include <queue>
 #include <set>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 CharacterConfusionMatrix::CharacterConfusionMatrix() {
     loadDefaultConfusions();
@@ -178,4 +178,4 @@ std::vector<ScoredCandidate> CharacterConfusionMatrix::generateCandidates(
     return results;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

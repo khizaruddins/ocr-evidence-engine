@@ -1,10 +1,10 @@
-#include <edmo/evidence/structure/FieldCandidateValidator.hpp>
+#include <ocr/evidence/structure/FieldCandidateValidator.hpp>
 
 #include <algorithm>
 #include <cctype>
 #include <regex>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -157,4 +157,4 @@ void FieldCandidateValidator::validateFields(std::vector<EvidenceField>& fields)
     }
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/patch/LlmPatchValidator.hpp>
+#include <ocr/evidence/patch/LlmPatchValidator.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 namespace {
 
@@ -47,7 +47,7 @@ TEST(PatchValidatorTests, ValidPatchAccepted) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-patch-0.1";
+    doc.schemaVersion = "ocr-llm-patch-0.1";
 
     LlmPatch p;
     p.patchId = "patch_001";
@@ -72,7 +72,7 @@ TEST(PatchValidatorTests, RejectFieldScopeViolation) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-patch-0.1";
+    doc.schemaVersion = "ocr-llm-patch-0.1";
 
     LlmPatch p;
     p.patchId = "patch_001";
@@ -96,7 +96,7 @@ TEST(PatchValidatorTests, RejectDocumentIdMismatch) {
 
     LlmPatchDocument doc;
     doc.documentId = "doc_wrong_456";
-    doc.schemaVersion = "edmo-llm-patch-0.1";
+    doc.schemaVersion = "ocr-llm-patch-0.1";
 
     LlmPatch p;
     p.patchId = "patch_001";
@@ -120,7 +120,7 @@ TEST(PatchValidatorTests, RejectUnknownTask) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-patch-0.1";
+    doc.schemaVersion = "ocr-llm-patch-0.1";
 
     LlmPatch p;
     p.patchId = "patch_001";
@@ -143,7 +143,7 @@ TEST(PatchValidatorTests, RejectConflictingPatches) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-patch-0.1";
+    doc.schemaVersion = "ocr-llm-patch-0.1";
 
     LlmPatch p1;
     p1.patchId = "patch_001";
@@ -177,7 +177,7 @@ TEST(PatchValidatorTests, AcceptResolutionResponseSchema) {
     std::string canonicalDocId = "doc_georgetown_123";
 
     nlohmann::json responseJson = {
-        {"schema_version", "edmo-llm-resolution-response-0.1"},
+        {"schema_version", "ocr-llm-resolution-response-0.1"},
         {"document_id", canonicalDocId},
         {"resolutions", nlohmann::json::array({
             {
@@ -207,7 +207,7 @@ TEST(PatchValidatorTests, RejectOverwriteOfDeterministicField) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    doc.schemaVersion = "ocr-llm-resolution-response-0.1";
 
     LlmPatch p;
     p.patchId = "resolve_001";
@@ -230,7 +230,7 @@ TEST(PatchValidatorTests, RejectResolutionWithUnresolvedOrRejectedStatus) {
 
     LlmPatchDocument doc;
     doc.documentId = canonicalDocId;
-    doc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    doc.schemaVersion = "ocr-llm-resolution-response-0.1";
 
     LlmPatch p;
     p.patchId = "resolve_001";

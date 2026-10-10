@@ -1,11 +1,11 @@
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
-#include <edmo/evidence/serialization/EvidenceJsonSerializer.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/serialization/EvidenceJsonSerializer.hpp>
 
 #include <fstream>
 #include <iostream>
 #include <regex>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 EvidencePipeline::EvidencePipeline(PipelineConfig config)
     : config_(config) {
@@ -200,4 +200,4 @@ PipelineResult EvidencePipeline::process(const nlohmann::json& fullEdrJson) {
     return result;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

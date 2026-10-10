@@ -1,6 +1,6 @@
 #pragma once
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Configurable weights and thresholds for multi-level confidence scoring.
@@ -18,4 +18,4 @@ struct ConfidenceConfig {
     float mediumConfidenceThreshold = 0.90f;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

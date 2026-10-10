@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
 #include <nlohmann/json.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 namespace {
 
@@ -15,7 +15,7 @@ nlohmann::json createGeorgetownTranscriptEdr() {
             {"page_count", 2}
         }},
         {"engine", {
-            {"name", "edmo-ocr"},
+            {"name", "ocr-engine"},
             {"version", "0.2.0"}
         }},
         {"identity", {

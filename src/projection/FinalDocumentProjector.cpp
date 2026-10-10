@@ -1,5 +1,5 @@
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
-#include <edmo/evidence/parser/EdrParser.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/parser/EdrParser.hpp>
 
 #include <algorithm>
 #include <cctype>
@@ -9,7 +9,7 @@
 #include <string_view>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -63,7 +63,7 @@ nlohmann::json FinalDocumentProjector::project(
     const EvidenceDocument& originalDoc
 ) {
     nlohmann::json doc = nlohmann::json::object();
-    doc["schema_version"] = "edmo-final-document-0.1";
+    doc["schema_version"] = "ocr-final-document-0.1";
 
     std::string docType = enhancedResult.documentType.empty() ? "transcript" : enhancedResult.documentType;
     int pageCount = originalDoc.metadata.pageCount > 0 ? originalDoc.metadata.pageCount : 1;
@@ -716,4 +716,4 @@ FinalizationReport FinalDocumentProjector::buildFinalizationReport(
     return report;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

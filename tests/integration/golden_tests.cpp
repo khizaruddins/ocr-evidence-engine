@@ -1,15 +1,15 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
 
 #include <filesystem>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(GoldenTests, ProcessRealSophiaJonesTranscriptIfAvailable) {
     std::vector<std::filesystem::path> candidates = {
-        "/home/khizaruddin/projects/fullapp/EDMO-OCR-DI/EDMO C++ OCR Engine/OCR Layer/output/documents/Sophia_Jones_Transcript/edr_full.json",
+        "/home/khizaruddin/projects/fullapp/EDMO-OCR-DI/C++ OCR Engine/OCR Layer/output/documents/Sophia_Jones_Transcript/edr_full.json",
         "examples/input/sophia_jones_edr.json",
         "../examples/input/sophia_jones_edr.json"
     };

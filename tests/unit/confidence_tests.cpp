@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/confidence/ConfidenceEngine.hpp>
+#include <ocr/evidence/confidence/ConfidenceEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(ConfidenceEngineTests, CalculateFieldConfidenceBasic) {
     ConfidenceEngine engine;

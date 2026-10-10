@@ -1,11 +1,11 @@
-#include <edmo/evidence/structure/CourseRowDetector.hpp>
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/structure/CourseRowDetector.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
 
 #include <algorithm>
 #include <cctype>
 #include <regex>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -420,4 +420,4 @@ ParsedCourseRow CourseRowDetector::parseRow(
     return res;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

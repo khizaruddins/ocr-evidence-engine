@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/confusion/CharacterConfusionMatrix.hpp>
-#include <edmo/evidence/dictionary/DictionaryEngine.hpp>
-#include <edmo/evidence/fuzzy/FuzzyMatcher.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/confusion/CharacterConfusionMatrix.hpp>
+#include <ocr/evidence/dictionary/DictionaryEngine.hpp>
+#include <ocr/evidence/fuzzy/FuzzyMatcher.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <memory>
 #include <string>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Deterministic OCR Correction Engine combining character confusion, dictionary validation, and fuzzy search.
@@ -66,4 +66,4 @@ private:
     ) const;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

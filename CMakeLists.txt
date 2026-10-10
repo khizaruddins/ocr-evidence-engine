@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(edmo-evidence-engine
+project(ocr-evidence-engine
     VERSION 0.2.0
-    DESCRIPTION "EDMO Evidence Intelligence Engine v0.2 (C++20)"
+    DESCRIPTION "OCR Evidence Intelligence Engine v0.2 (C++20)"
     LANGUAGES CXX
 )
 
@@ -59,7 +59,7 @@ if(BUILD_TESTING)
 endif()
 
 # Core Library Sources
-set(EDMO_EVIDENCE_SOURCES
+set(OCR_EVIDENCE_SOURCES
     src/parser/EdrParser.cpp
     src/structure/PlaceholderDetector.cpp
     src/structure/StructuralClassifier.cpp
@@ -88,16 +88,16 @@ set(EDMO_EVIDENCE_SOURCES
 )
 
 # Core Library Target
-add_library(edmo_evidence_core STATIC ${EDMO_EVIDENCE_SOURCES})
-target_include_directories(edmo_evidence_core PUBLIC
+add_library(ocr_evidence_core STATIC ${OCR_EVIDENCE_SOURCES})
+target_include_directories(ocr_evidence_core PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
 )
-target_link_libraries(edmo_evidence_core PUBLIC nlohmann_json::nlohmann_json)
+target_link_libraries(ocr_evidence_core PUBLIC nlohmann_json::nlohmann_json)
 
 # CLI Application Target
-add_executable(edmo-evidence src/main.cpp)
-target_link_libraries(edmo-evidence PRIVATE edmo_evidence_core)
+add_executable(ocr-evidence src/main.cpp)
+target_link_libraries(ocr-evidence PRIVATE ocr_evidence_core)
 
 # Testing Target
 if(BUILD_TESTING)
@@ -125,13 +125,13 @@ if(BUILD_TESTING)
         tests/integration/golden_tests.cpp
     )
 
-    add_executable(edmo_evidence_tests ${TEST_SOURCES})
-    target_link_libraries(edmo_evidence_tests PRIVATE
-        edmo_evidence_core
+    add_executable(ocr_evidence_tests ${TEST_SOURCES})
+    target_link_libraries(ocr_evidence_tests PRIVATE
+        ocr_evidence_core
         GTest::gtest
         GTest::gtest_main
     )
 
     include(GoogleTest)
-    gtest_discover_tests(edmo_evidence_tests)
+    gtest_discover_tests(ocr_evidence_tests)
 endif()

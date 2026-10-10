@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceRow.hpp>
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/EvidenceToken.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceRow.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/EvidenceToken.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct EvidenceColumn {
     std::string name;
@@ -84,4 +84,4 @@ struct EvidenceTable {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

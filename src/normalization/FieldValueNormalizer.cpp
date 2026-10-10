@@ -1,4 +1,4 @@
-#include <edmo/evidence/normalization/FieldValueNormalizer.hpp>
+#include <ocr/evidence/normalization/FieldValueNormalizer.hpp>
 
 #include <algorithm>
 #include <cctype>
@@ -6,7 +6,7 @@
 #include <sstream>
 #include <unordered_map>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 std::string FieldValueNormalizer::trim(std::string_view sv) {
     while (!sv.empty() && (std::isspace(static_cast<unsigned char>(sv.front())) || sv.front() == '\0')) {
@@ -390,4 +390,4 @@ NormalizationResult FieldValueNormalizer::normalizeGenericMetadata(
     return res;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

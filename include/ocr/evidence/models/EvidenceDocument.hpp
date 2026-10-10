@@ -1,16 +1,16 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceField.hpp>
-#include <edmo/evidence/models/EvidencePage.hpp>
-#include <edmo/evidence/models/EvidenceSection.hpp>
-#include <edmo/evidence/models/EvidenceTable.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/models/EvidencePage.hpp>
+#include <ocr/evidence/models/EvidenceSection.hpp>
+#include <ocr/evidence/models/EvidenceTable.hpp>
 
 #include <map>
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct DocumentMetadata {
     std::string id;
@@ -29,7 +29,7 @@ struct DocumentMetadata {
 };
 
 struct EngineInfo {
-    std::string name = "edmo-ocr";
+    std::string name = "ocr-engine";
     std::string provider = "tesseract";
     std::string version = "0.1.0";
 
@@ -109,4 +109,4 @@ struct EvidenceDocument {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceRow.hpp>
-#include <edmo/evidence/structure/StructuralTypes.hpp>
+#include <ocr/evidence/models/EvidenceRow.hpp>
+#include <ocr/evidence/structure/StructuralTypes.hpp>
 
 #include <string>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Decomposed fields from a transcript course row.
@@ -63,4 +63,4 @@ public:
     [[nodiscard]] bool isValidCourseCode(std::string_view code) const noexcept;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

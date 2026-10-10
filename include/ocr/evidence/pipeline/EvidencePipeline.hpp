@@ -1,27 +1,27 @@
 #pragma once
 
-#include <edmo/evidence/confidence/ConfidenceEngine.hpp>
-#include <edmo/evidence/confusion/CharacterConfusionMatrix.hpp>
-#include <edmo/evidence/context/TargetedLlmContextBuilder.hpp>
-#include <edmo/evidence/correction/ContextualCorrectionEngine.hpp>
-#include <edmo/evidence/correction/CorrectionEngine.hpp>
-#include <edmo/evidence/dictionary/DictionaryEngine.hpp>
-#include <edmo/evidence/extraction/TranscriptFieldExtractor.hpp>
-#include <edmo/evidence/fusion/EvidenceFusionEngine.hpp>
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/parser/EdrParser.hpp>
-#include <edmo/evidence/pipeline/PerformanceTimer.hpp>
-#include <edmo/evidence/pipeline/PipelineConfig.hpp>
-#include <edmo/evidence/routing/ConfidenceRouter.hpp>
-#include <edmo/evidence/structure/FieldCandidateValidator.hpp>
-#include <edmo/evidence/validation/ZeroLossAuditor.hpp>
+#include <ocr/evidence/confidence/ConfidenceEngine.hpp>
+#include <ocr/evidence/confusion/CharacterConfusionMatrix.hpp>
+#include <ocr/evidence/context/TargetedLlmContextBuilder.hpp>
+#include <ocr/evidence/correction/ContextualCorrectionEngine.hpp>
+#include <ocr/evidence/correction/CorrectionEngine.hpp>
+#include <ocr/evidence/dictionary/DictionaryEngine.hpp>
+#include <ocr/evidence/extraction/TranscriptFieldExtractor.hpp>
+#include <ocr/evidence/fusion/EvidenceFusionEngine.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/parser/EdrParser.hpp>
+#include <ocr/evidence/pipeline/PerformanceTimer.hpp>
+#include <ocr/evidence/pipeline/PipelineConfig.hpp>
+#include <ocr/evidence/routing/ConfidenceRouter.hpp>
+#include <ocr/evidence/structure/FieldCandidateValidator.hpp>
+#include <ocr/evidence/validation/ZeroLossAuditor.hpp>
 
 #include <memory>
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Comprehensive pipeline execution result containing all enriched evidence, targeted LLM context, and reports.
@@ -87,4 +87,4 @@ private:
     void initializeComponents();
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

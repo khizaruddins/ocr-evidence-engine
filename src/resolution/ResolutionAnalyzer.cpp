@@ -1,5 +1,5 @@
-#include <edmo/evidence/resolution/ResolutionAnalyzer.hpp>
-#include <edmo/evidence/confidence/ConfidenceComparator.hpp>
+#include <ocr/evidence/resolution/ResolutionAnalyzer.hpp>
+#include <ocr/evidence/confidence/ConfidenceComparator.hpp>
 
 #include <algorithm>
 #include <cctype>
@@ -7,7 +7,7 @@
 #include <set>
 #include <sstream>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -816,4 +816,4 @@ bool ResolutionAnalyzer::isStrongStructuralCreditsEvidence(
     return false;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

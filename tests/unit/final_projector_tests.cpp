@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 namespace {
 
@@ -152,7 +152,7 @@ TEST(FinalProjectorTests, ProjectsExpectedSchemaAndValues) {
 
     auto finalDoc = FinalDocumentProjector::project(enhancedRes, doc);
 
-    EXPECT_EQ(finalDoc["schema_version"], "edmo-final-document-0.1");
+    EXPECT_EQ(finalDoc["schema_version"], "ocr-final-document-0.1");
     EXPECT_EQ(finalDoc["document"]["document_id"], "doc_georgetown_789");
     EXPECT_EQ(finalDoc["document"]["document_type"], "transcript");
     EXPECT_EQ(finalDoc["document"]["page_count"], 2);
@@ -199,7 +199,7 @@ TEST(FinalProjectorTests, MissingFieldsRemainNullWithoutFabrication) {
 
     auto finalDoc = FinalDocumentProjector::project(enhancedRes, emptyDoc);
 
-    EXPECT_EQ(finalDoc["schema_version"], "edmo-final-document-0.1");
+    EXPECT_EQ(finalDoc["schema_version"], "ocr-final-document-0.1");
     EXPECT_TRUE(finalDoc["institution"]["name"].is_null());
     EXPECT_TRUE(finalDoc["student"]["name"].is_null());
     EXPECT_TRUE(finalDoc["student"]["student_id"].is_null());

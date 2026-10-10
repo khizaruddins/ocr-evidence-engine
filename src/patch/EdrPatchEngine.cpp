@@ -1,8 +1,8 @@
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
 
 #include <map>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 EnhancedEdrResult EdrPatchEngine::applyPatchesJson(
     const EvidenceDocument& doc,
@@ -182,4 +182,4 @@ EnhancedEdrResult EdrPatchEngine::applyPatches(
     return result;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

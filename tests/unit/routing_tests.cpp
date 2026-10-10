@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/routing/ConfidenceRouter.hpp>
+#include <ocr/evidence/routing/ConfidenceRouter.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(ConfidenceRouterTests, HighConfidenceTrusted) {
     ConfidenceRouter router;

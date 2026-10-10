@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <string>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents an individual OCR token with confidence and geometry.
@@ -68,4 +68,4 @@ struct ConfidenceSummary {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

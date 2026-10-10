@@ -1,15 +1,15 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceBlock.hpp>
-#include <edmo/evidence/models/EvidenceSource.hpp>
-#include <edmo/evidence/models/EvidenceToken.hpp>
-#include <edmo/evidence/models/Fates.hpp>
+#include <ocr/evidence/models/EvidenceBlock.hpp>
+#include <ocr/evidence/models/EvidenceSource.hpp>
+#include <ocr/evidence/models/EvidenceToken.hpp>
+#include <ocr/evidence/models/Fates.hpp>
 
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Represents a semantic section of a document.
@@ -51,4 +51,4 @@ struct EvidenceSection {
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

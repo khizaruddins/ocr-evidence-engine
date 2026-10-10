@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/validation/FinalDocumentValidator.hpp>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/validation/FinalDocumentValidator.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(FinalValidatorTests, ValidFinalDocumentPassesValidation) {
     EvidenceDocument doc;
@@ -37,7 +37,7 @@ TEST(FinalValidatorTests, ValidFinalDocumentPassesValidation) {
 
 TEST(FinalValidatorTests, RejectDocumentIdMismatch) {
     nlohmann::json finalDoc{
-        {"schema_version", "edmo-final-document-0.1"},
+        {"schema_version", "ocr-final-document-0.1"},
         {"document", {
             {"document_id", "doc_wrong_id"},
             {"document_type", "transcript"}
@@ -75,7 +75,7 @@ TEST(FinalValidatorTests, RejectInvalidSchemaVersion) {
 
 TEST(FinalValidatorTests, RejectOutOfRangeConfidence) {
     nlohmann::json finalDoc{
-        {"schema_version", "edmo-final-document-0.1"},
+        {"schema_version", "ocr-final-document-0.1"},
         {"document", {
             {"document_id", "doc_001"},
             {"document_type", "transcript"}

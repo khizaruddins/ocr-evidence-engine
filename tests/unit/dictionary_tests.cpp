@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/dictionary/DictionaryEngine.hpp>
+#include <ocr/evidence/dictionary/DictionaryEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(DictionaryEngineTests, DefaultVocabulariesLoaded) {
     DictionaryEngine dict;

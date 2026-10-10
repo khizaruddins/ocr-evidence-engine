@@ -5,7 +5,7 @@
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 struct NormalizationResult {
     std::string originalValue;
@@ -52,4 +52,4 @@ private:
     static bool startsWithCi(std::string_view str, std::string_view prefix);
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Precision-safe floating-point confidence comparator with configurable epsilon.
@@ -47,4 +47,4 @@ public:
     }
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

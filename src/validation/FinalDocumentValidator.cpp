@@ -1,6 +1,6 @@
-#include <edmo/evidence/validation/FinalDocumentValidator.hpp>
+#include <ocr/evidence/validation/FinalDocumentValidator.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 FinalValidationResult FinalDocumentValidator::validate(
     const nlohmann::json& finalDoc,
@@ -11,7 +11,7 @@ FinalValidationResult FinalDocumentValidator::validate(
 
     // 1. Check Schema Version
     std::string schemaVer = finalDoc.value("schema_version", "");
-    if (schemaVer != "edmo-final-document-0.1") {
+    if (schemaVer != "ocr-final-document-0.1" && schemaVer != "edmo-final-document-0.1") {
         res.errors.push_back("Invalid schema_version: expected 'edmo-final-document-0.1', got '" + schemaVer + "'");
     }
 
@@ -89,4 +89,4 @@ FinalValidationResult FinalDocumentValidator::validate(
     return res;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

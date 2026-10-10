@@ -1,13 +1,13 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/resolution/ResolutionAnalyzer.hpp>
-#include <edmo/evidence/resolution/ResolutionStrategy.hpp>
-#include <edmo/evidence/context/TargetedLlmContextBuilder.hpp>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/resolution/ResolutionAnalyzer.hpp>
+#include <ocr/evidence/resolution/ResolutionStrategy.hpp>
+#include <ocr/evidence/context/TargetedLlmContextBuilder.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
 #include <nlohmann/json.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 namespace {
 
@@ -167,7 +167,7 @@ TEST(ResolutionAnalyzerTests, Test6_PatchEngineRejectsUnknownTaskId) {
     f.resolutionStatus = ResolutionStatus::LlmRequired;
 
     LlmPatchDocument patchDoc;
-    patchDoc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    patchDoc.schemaVersion = "ocr-llm-resolution-response-0.1";
     patchDoc.documentId = doc.metadata.id;
 
     LlmPatch p;
@@ -197,7 +197,7 @@ TEST(ResolutionAnalyzerTests, Test7_PatchEngineRejectsDeterministicFieldModifica
     f.resolutionStatus = ResolutionStatus::Deterministic; // Deterministic!
 
     LlmPatchDocument patchDoc;
-    patchDoc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    patchDoc.schemaVersion = "ocr-llm-resolution-response-0.1";
     patchDoc.documentId = doc.metadata.id;
 
     LlmPatch p;
@@ -227,7 +227,7 @@ TEST(ResolutionAnalyzerTests, Test8_PatchEngineRejectsUnsupportedResolutionStatu
     f.resolutionStatus = ResolutionStatus::LlmRequired;
 
     LlmPatchDocument patchDoc;
-    patchDoc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    patchDoc.schemaVersion = "ocr-llm-resolution-response-0.1";
     patchDoc.documentId = doc.metadata.id;
 
     LlmPatch p;
@@ -261,7 +261,7 @@ TEST(ResolutionAnalyzerTests, Test9_LlmResolvesAllMandatoryTasksSuccessfully) {
     f.resolutionStatus = ResolutionStatus::LlmRequired;
 
     LlmPatchDocument patchDoc;
-    patchDoc.schemaVersion = "edmo-llm-resolution-response-0.1";
+    patchDoc.schemaVersion = "ocr-llm-resolution-response-0.1";
     patchDoc.documentId = doc.metadata.id;
 
     LlmPatch p;

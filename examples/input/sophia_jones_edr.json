@@ -31,7 +31,7 @@
     "type": "transcript"
   },
   "engine": {
-    "name": "edmo-ocr",
+    "name": "ocr-engine",
     "provider": "tesseract",
     "version": "0.2.0"
   },
@@ -617,7 +617,7 @@
       "pages": 1,
       "type": "TEXT_AND_IMAGE"
     },
-    "engine": "edmo-ocr",
+    "engine": "ocr-engine",
     "pages": {
       "failed": 0,
       "native_text": 0,

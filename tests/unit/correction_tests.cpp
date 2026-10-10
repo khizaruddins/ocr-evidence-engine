@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/correction/CorrectionEngine.hpp>
+#include <ocr/evidence/correction/CorrectionEngine.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(CorrectionEngineTests, CorrectCourseTitleCharacterConfusion) {
     CorrectionEngine engine;

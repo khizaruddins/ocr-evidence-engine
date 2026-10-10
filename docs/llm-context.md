@@ -12,7 +12,7 @@ Rather than transmitting an entire multi-page document to the LLM, `TargetedLlmC
 
 ```json
 {
-  "schema_version": "edmo-llm-context-0.1",
+  "schema_version": "ocr-llm-context-0.1",
   "document": {
     "id": "doc_2026_08_22_001",
     "type": "transcript",
@@ -52,7 +52,7 @@ Rather than transmitting an entire multi-page document to the LLM, `TargetedLlmC
 
 ```json
 {
-  "schema_version": "edmo-llm-context-0.1",
+  "schema_version": "ocr-llm-context-0.1",
   "document": {
     "id": "doc_2026_08_22_001",
     "type": "transcript",

@@ -3,7 +3,7 @@
 #include <string_view>
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Utility to detect placeholder, null, separator, and empty text values.
@@ -26,4 +26,4 @@ public:
     [[nodiscard]] static bool isLabeledPlaceholder(std::string_view text) noexcept;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

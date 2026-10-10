@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/structure/StructuralTypes.hpp>
-#include <edmo/evidence/structure/PlaceholderDetector.hpp>
+#include <ocr/evidence/structure/StructuralTypes.hpp>
+#include <ocr/evidence/structure/PlaceholderDetector.hpp>
 
 #include <string_view>
 #include <string>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Classifies text fragments, lines, and table rows into structural categories.
@@ -51,4 +51,4 @@ public:
     [[nodiscard]] bool isCourseStatusHeader(std::string_view text) const noexcept;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

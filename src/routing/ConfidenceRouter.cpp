@@ -1,10 +1,10 @@
-#include <edmo/evidence/routing/ConfidenceRouter.hpp>
-#include <edmo/evidence/resolution/ResolutionAnalyzer.hpp>
+#include <ocr/evidence/routing/ConfidenceRouter.hpp>
+#include <ocr/evidence/resolution/ResolutionAnalyzer.hpp>
 
 #include <set>
 #include <tuple>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 RoutingDecision ConfidenceRouter::routeField(
     const EvidenceField& field
@@ -148,4 +148,4 @@ RoutingStats ConfidenceRouter::routeFields(
     return stats;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

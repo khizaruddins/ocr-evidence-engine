@@ -1,13 +1,13 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <memory>
 #include <string>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Abstract interface for document-type-aware field extraction.
@@ -26,4 +26,4 @@ public:
     ) const = 0;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

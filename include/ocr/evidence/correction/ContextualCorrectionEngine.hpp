@@ -1,12 +1,12 @@
 #pragma once
 
-#include <edmo/evidence/correction/CorrectionEngine.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/correction/CorrectionEngine.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <memory>
 #include <vector>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Contextual correction engine utilizing structural domain relationships and neighboring tokens.
@@ -28,4 +28,4 @@ private:
     std::shared_ptr<CorrectionEngine> baseEngine_;
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

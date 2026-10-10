@@ -3,7 +3,7 @@
 #include <string>
 #include <string_view>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Zero-loss disposition fates for every OCR and semantic evidence element.
@@ -80,4 +80,4 @@ enum class CorrectionMethod {
     return "NONE";
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

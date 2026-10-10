@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/pipeline/EvidencePipeline.hpp>
+#include <ocr/evidence/pipeline/EvidencePipeline.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 TEST(PipelineIntegrationTests, EndToEndExecutionSyntheticTranscript) {
     nlohmann::json sampleEdr = {
@@ -12,7 +12,7 @@ TEST(PipelineIntegrationTests, EndToEndExecutionSyntheticTranscript) {
             {"page_count", 1}
         }},
         {"engine", {
-            {"name", "edmo-ocr"},
+            {"name", "ocr-engine"},
             {"provider", "tesseract"},
             {"version", "0.1.0"}
         }},

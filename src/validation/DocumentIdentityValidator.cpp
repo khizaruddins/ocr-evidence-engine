@@ -1,6 +1,6 @@
-#include <edmo/evidence/validation/DocumentIdentityValidator.hpp>
+#include <ocr/evidence/validation/DocumentIdentityValidator.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 DocumentIdentityValidationResult DocumentIdentityValidator::validateSingle(
     const std::string& canonicalId,
@@ -91,4 +91,4 @@ std::string DocumentIdentityValidator::extractDocumentId(const nlohmann::json& j
     return "";
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

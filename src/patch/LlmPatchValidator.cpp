@@ -1,12 +1,12 @@
-#include <edmo/evidence/patch/LlmPatchValidator.hpp>
-#include <edmo/evidence/normalization/FieldValueNormalizer.hpp>
+#include <ocr/evidence/patch/LlmPatchValidator.hpp>
+#include <ocr/evidence/normalization/FieldValueNormalizer.hpp>
 
 #include <algorithm>
 #include <cmath>
 #include <map>
 #include <set>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 namespace {
 
@@ -72,8 +72,11 @@ PatchAuditReport LlmPatchValidator::validatePatches(
                                patchDoc.documentId != canonicalDocumentId);
 
     // 3. Global Schema Check
-    bool validSchemaVersion = (patchDoc.schemaVersion == "edmo-llm-patch-0.1" ||
+    bool validSchemaVersion = (patchDoc.schemaVersion == "ocr-llm-patch-0.1" ||
+                               patchDoc.schemaVersion == "ocr-llm-resolution-response-0.1" ||
+                               patchDoc.schemaVersion == "edmo-llm-patch-0.1" ||
                                patchDoc.schemaVersion == "edmo-llm-resolution-response-0.1" ||
+                               patchDoc.schemaVersion.find("ocr-llm-") != std::string::npos ||
                                patchDoc.schemaVersion.find("edmo-llm-") != std::string::npos);
 
     std::set<std::string> seenPatchIds;
@@ -279,4 +282,4 @@ PatchAuditReport LlmPatchValidator::validatePatches(
     return report;
 }
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

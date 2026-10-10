@@ -28,7 +28,7 @@ cmake --build build -j$(nproc)
 ```bash
 ctest --test-dir build --output-on-failure
 # Or directly:
-./build/bin/edmo_evidence_tests
+./build/bin/ocr_evidence_tests
 ```
 
 ## Running the CLI

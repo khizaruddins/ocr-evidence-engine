@@ -1,14 +1,14 @@
 #pragma once
 
-#include <edmo/evidence/models/EvidenceDocument.hpp>
-#include <edmo/evidence/models/EvidenceField.hpp>
+#include <ocr/evidence/models/EvidenceDocument.hpp>
+#include <ocr/evidence/models/EvidenceField.hpp>
 
 #include <map>
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
 
-namespace edmo::evidence {
+namespace ocr::evidence {
 
 /**
  * @brief Complete audit metrics tracking zero-loss accounting and fate assignment.
@@ -64,4 +64,4 @@ public:
     );
 };
 
-} // namespace edmo::evidence
+} // namespace ocr::evidence

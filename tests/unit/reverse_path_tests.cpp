@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
-#include <edmo/evidence/patch/EdrPatchEngine.hpp>
-#include <edmo/evidence/projection/FinalDocumentProjector.hpp>
+#include <ocr/evidence/patch/EdrPatchEngine.hpp>
+#include <ocr/evidence/projection/FinalDocumentProjector.hpp>
 
-using namespace edmo::evidence;
+using namespace ocr::evidence;
 
 namespace {
 
@@ -98,7 +98,7 @@ TEST(ReversePathTests, EnhancedEdrAndFinalDocumentGeneration) {
     auto fields = createSampleFields();
 
     LlmPatchDocument patchDoc;
-    patchDoc.schemaVersion = "edmo-llm-patch-0.1";
+    patchDoc.schemaVersion = "ocr-llm-patch-0.1";
     patchDoc.documentId = doc.metadata.id;
     patchDoc.model.provider = "vllm";
     patchDoc.model.model = "qwen3-8b";
