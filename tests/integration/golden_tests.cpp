@@ -107,13 +107,57 @@ TEST(GoldenTests, ProcessRealSophiaJonesTranscriptIfAvailable) {
         EXPECT_EQ(crs["grade"].get<std::string>(), exp.grade) << "Grade mismatch for " << exp.code;
     }
 
-    // Specific BUSI 499 test (Acceptance Criteria #9)
+    // Table Grade Column Regression Fix #7: Table Schema and Column Assertions
+    ASSERT_FALSE(result.document.tables.empty());
+    const auto& tbl = result.document.tables[0];
+    EXPECT_EQ(tbl.columns.size(), 4);
+
+    std::vector<std::string> colCanonicalNames;
+    for (const auto& col : tbl.columns) {
+        colCanonicalNames.push_back(col.canonicalName);
+    }
+    const std::vector<std::string> expectedColNames = {
+        "course_code",
+        "course_title",
+        "credits",
+        "grade"
+    };
+    EXPECT_EQ(colCanonicalNames, expectedColNames);
+
+    // Assert all 15 rows in structured table contain a grade cell
+    EXPECT_EQ(tbl.rows.size(), 15);
+    for (const auto& row : tbl.rows) {
+        EXPECT_TRUE(row.canonicalFields.count("grade") > 0);
+        EXPECT_FALSE(row.canonicalFields.at("grade").empty());
+    }
+
+    // Specific BUSI 499 test (Acceptance Criteria #9 / #11)
     ASSERT_TRUE(foundCourses.count("BUSI 499") > 0);
     const auto& busi499 = *foundCourses["BUSI 499"];
     EXPECT_EQ(busi499["course_code"], "BUSI 499");
     EXPECT_EQ(busi499["course_title"], "Personal and Professional Development");
     EXPECT_DOUBLE_EQ(busi499["credits"].get<double>(), 3.0);
     EXPECT_EQ(busi499["grade"], "B");
+
+    // Specific AUDT 301 test (Special Case: Section 9)
+    ASSERT_TRUE(foundCourses.count("AUDT 301") > 0);
+    const auto& audt301 = *foundCourses["AUDT 301"];
+    EXPECT_EQ(audt301["course_code"], "AUDT 301");
+    EXPECT_EQ(audt301["course_title"], "Introduction to Auditing Theory and Practice");
+    EXPECT_DOUBLE_EQ(audt301["credits"].get<double>(), 3.0);
+    EXPECT_EQ(audt301["grade"], "B");
+
+    // Specific ACCT 101 test (Section 12)
+    ASSERT_TRUE(foundCourses.count("ACCT 101") > 0);
+    const auto& acct101 = *foundCourses["ACCT 101"];
+    EXPECT_EQ(acct101["course_code"], "ACCT 101");
+    EXPECT_DOUBLE_EQ(acct101["credits"].get<double>(), 3.0);
+    EXPECT_EQ(acct101["grade"], "A");
+
+    // Ensure spurious rows do not exist
+    EXPECT_EQ(foundCourses.count("Practice"), 0);
+    EXPECT_EQ(foundCourses.count("GRADE"), 0);
+    EXPECT_EQ(foundCourses.count("A"), 0);
 }
 
 TEST(GoldenTests, StructuredCourseGradeDataLossInvariant) {
