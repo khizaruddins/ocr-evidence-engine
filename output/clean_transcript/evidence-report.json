@@ -1,0 +1,46 @@
+{
+  "confidence": {
+    "average": 0.9809581637382507,
+    "high_confidence_fields": 12,
+    "low_confidence_fields": 0,
+    "medium_confidence_fields": 0
+  },
+  "correction": {
+    "attempted": 12,
+    "corrected": 0,
+    "unchanged": 12
+  },
+  "coverage": {
+    "represented_items": 3,
+    "source_items": 3,
+    "unaccounted_loss": 0
+  },
+  "llm": {
+    "estimated_tokens": 64,
+    "required": false,
+    "task_count": 0
+  },
+  "performance_breakdown_ms": {
+    "audit": 0.007,
+    "correction": 2.57,
+    "evidence_parsing": 0.059,
+    "field_extraction": 0.047,
+    "fusion": 0.744,
+    "llm_context": 0.032,
+    "routing": 0.013,
+    "serialization": 0.0
+  },
+  "processing": {
+    "execution_time_ms": 3.472,
+    "pages": 1
+  },
+  "schema_version": "evidence-report-0.1",
+  "source": {
+    "blocks": 0,
+    "cells": 0,
+    "fields": 12,
+    "rows": 2,
+    "tables": 1,
+    "tokens": 0
+  }
+}

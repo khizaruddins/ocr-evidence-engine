@@ -1,0 +1,21 @@
+{
+  "name": "general_vocabulary",
+  "version": "0.1.0",
+  "terms": [
+    "THE", "OF", "AND", "TO", "A", "IN", "FOR", "IS", "ON", "THAT", "BY", "THIS", "WITH", "I", "YOU",
+    "IT", "NOT", "OR", "BE", "ARE", "FROM", "AT", "AS", "YOUR", "ALL", "HAVE", "NEW", "MORE", "AN",
+    "WAS", "WE", "WILL", "HOME", "CAN", "US", "ABOUT", "IF", "PAGE", "MY", "HAS", "SEARCH", "FREE",
+    "BUT", "OUR", "ONE", "OTHER", "DO", "NO", "INFORMATION", "TIME", "THEY", "SITE", "HE", "UP",
+    "MAY", "WHAT", "WHICH", "THEIR", "NEWS", "OUT", "USE", "ANY", "THERE", "SEE", "ONLY", "SO",
+    "HIS", "WHEN", "CONTACT", "HERE", "BUSINESS", "WHO", "WEB", "ALSO", "NOW", "HELP", "GET", "PM",
+    "VIEW", "ONLINE", "FIRST", "AM", "BEEN", "WOULD", "HOW", "WERE", "ME", "SERVICES", "SOME",
+    "THESE", "CLICK", "ITS", "LIKE", "SERVICE", "THAN", "FIND", "PRICE", "DATE", "BACK", "TOP",
+    "PEOPLE", "HAD", "LIST", "NAME", "JUST", "OVER", "STATE", "YEAR", "DAY", "INTO", "EMAIL",
+    "TWO", "HEALTH", "WORLD", "RE", "NEXT", "USED", "WORK", "LAST", "MOST", "PRODUCTS", "MUSIC",
+    "BUY", "DATA", "MAKE", "THEM", "SHOULD", "PRODUCT", "SYSTEM", "POST", "HER", "CITY", "POLICY",
+    "NUMBER", "SUCH", "PLEASE", "AVAILABLE", "COPYRIGHT", "SUPPORT", "MESSAGE", "AFTER", "BEST",
+    "SOFTWARE", "THEN", "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC",
+    "JANUARY", "FEBRUARY", "MARCH", "APRIL", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER",
+    "NORTH", "SOUTH", "EAST", "WEST", "STREET", "AVENUE", "ROAD", "BOULEVARD", "LANE", "DRIVE", "BUILDING", "SUITE", "BOX"
+  ]
+}

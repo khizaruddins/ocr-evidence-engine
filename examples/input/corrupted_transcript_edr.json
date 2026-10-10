@@ -1,0 +1,110 @@
+{
+  "schema_version": "edr-0.1",
+  "document": {
+    "id": "doc_corrupted_transcript_001",
+    "page_count": 1,
+    "source": "synthetic_corrupted_test_case.pdf",
+    "type": "transcript"
+  },
+  "engine": {
+    "name": "edmo-ocr",
+    "provider": "tesseract",
+    "version": "0.1.0"
+  },
+  "confidence": {
+    "mean": 0.82,
+    "minimum": 0.45,
+    "maximum": 0.98,
+    "token_count": 48,
+    "low_confidence_token_count": 6
+  },
+  "identity": {
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "institution": {
+    "name": "UN1VERSITY OF OXF0RD"
+  },
+  "academic": {
+    "degree": "BACHELOR IN ACC0UNTING & F1NANCE"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "confidence": {
+        "mean": 0.82,
+        "minimum": 0.45,
+        "maximum": 0.98,
+        "token_count": 48,
+        "low_confidence_token_count": 6
+      },
+      "blocks": [
+        {
+          "id": "block_1",
+          "type": "heading",
+          "text": "OFF1C1AL ACADEM1C TRANSCR1PT",
+          "confidence": {
+            "mean": 0.85,
+            "minimum": 0.70,
+            "maximum": 0.95,
+            "token_count": 3,
+            "low_confidence_token_count": 1
+          }
+        },
+        {
+          "id": "block_2",
+          "type": "label_value",
+          "label": "NAME",
+          "value": "Sophia Jones",
+          "confidence": {
+            "mean": 0.96,
+            "minimum": 0.94,
+            "maximum": 0.98,
+            "token_count": 2,
+            "low_confidence_token_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "table_type": "course_records",
+      "page_start": 1,
+      "page_end": 1,
+      "has_header": true,
+      "columns": [
+        { "name": "COURSE CODE", "canonical_name": "course_code", "column_index": 0, "confidence": 0.95 },
+        { "name": "COURSE TITLE", "canonical_name": "course_title", "column_index": 1, "confidence": 0.95 },
+        { "name": "CREDITS", "canonical_name": "credits", "column_index": 2, "confidence": 0.95 },
+        { "name": "GRADE", "canonical_name": "grade", "column_index": 3, "confidence": 0.95 }
+      ],
+      "rows": [
+        {
+          "course_code": "ACCT 101",
+          "course_title": "F1NANC1AL ACC0UNTING",
+          "credits": "3",
+          "grade": "A",
+          "confidence": 0.85
+        },
+        {
+          "course_code": "MIS 301",
+          "course_title": "MANAGEMENT INF0RMAT1ON SYSTEMS",
+          "credits": "3",
+          "grade": "A",
+          "confidence": 0.84
+        },
+        {
+          "course_code": "UNKN ???",
+          "course_title": "ADV@NCED %%% UNREADABLE TEXT",
+          "credits": "3",
+          "grade": "A",
+          "confidence": 0.45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "document_id": "doc_1787168380294_645e3a",
+  "execution_time_ms": 1,
+  "fields_missing": 17,
+  "fields_projected": 50,
+  "fields_with_deterministic_resolution": 0,
+  "fields_with_llm_resolution": 0,
+  "llm_used": false,
+  "overall_confidence": 0.9257224202156067,
+  "schema_version": "finalization-report-0.1",
+  "source": "enhanced_edr",
+  "status": "COMPLETED"
+}

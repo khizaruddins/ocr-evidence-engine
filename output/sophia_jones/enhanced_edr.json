@@ -1,0 +1,4200 @@
+{
+  "academic": {
+    "department": "Accounting",
+    "major": "Accounting & Finance"
+  },
+  "audit": {
+    "unaccounted_loss": 0,
+    "zero_loss": true
+  },
+  "confidence_fusion": {
+    "version": "fusion-v1",
+    "weights": {
+      "context": 0.10000000149011612,
+      "dictionary": 0.10000000149011612,
+      "llm": 0.6000000238418579,
+      "ocr": 0.20000000298023224
+    }
+  },
+  "document_id": "sophia_auto",
+  "document_type": "transcript",
+  "fields": [
+    {
+      "category": "identity",
+      "confidence": 0.9542865753173828,
+      "field": "student_name",
+      "field_id": "field_student_name_1",
+      "original": {
+        "confidence": 0.9285731315612793,
+        "source": {
+          "bbox": {
+            "height": 55,
+            "width": 979,
+            "x": 305,
+            "y": 687
+          },
+          "page": 1
+        },
+        "value": "Sophia Jones"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 55,
+          "width": 979,
+          "x": 305,
+          "y": 687
+        },
+        "page": 1
+      },
+      "value": "Sophia Jones"
+    },
+    {
+      "category": "identity",
+      "confidence": 0.8953584432601929,
+      "field": "student_id",
+      "field_id": "field_student_id_2",
+      "original": {
+        "confidence": 0.7907170057296753,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 874,
+            "x": 302,
+            "y": 761
+          },
+          "page": 1
+        },
+        "value": "2291829"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 874,
+          "x": 302,
+          "y": 761
+        },
+        "page": 1
+      },
+      "value": "2291829"
+    },
+    {
+      "category": "identity",
+      "confidence": 0.7380746603012085,
+      "field": "birthdate",
+      "field_id": "field_birthdate_3",
+      "normalization": {
+        "applied": true,
+        "operations": [
+          "SPLIT_MERGED_DAY_YEAR",
+          "NORMALIZE_DATE"
+        ]
+      },
+      "normalized_value": "Jun 26 1997",
+      "original": {
+        "confidence": 0.7628160715103149,
+        "source": {
+          "bbox": {
+            "height": 34,
+            "width": 942,
+            "x": 305,
+            "y": 825
+          },
+          "page": 1
+        },
+        "value": "Jun 261997"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 34,
+          "width": 942,
+          "x": 305,
+          "y": 825
+        },
+        "page": 1
+      },
+      "value": "Jun 26 1997"
+    },
+    {
+      "category": "academic",
+      "confidence": 0.9351091384887695,
+      "field": "department",
+      "field_id": "field_department_4",
+      "original": {
+        "confidence": 0.878218412399292,
+        "source": {
+          "bbox": {
+            "height": 48,
+            "width": 944,
+            "x": 305,
+            "y": 886
+          },
+          "page": 1
+        },
+        "value": "Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 48,
+          "width": 944,
+          "x": 305,
+          "y": 886
+        },
+        "page": 1
+      },
+      "value": "Accounting"
+    },
+    {
+      "category": "academic",
+      "confidence": 0.888251781463623,
+      "field": "major",
+      "field_id": "field_major_5",
+      "original": {
+        "confidence": 0.9151702523231506,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1189,
+            "x": 305,
+            "y": 952
+          },
+          "page": 1
+        },
+        "value": "Accounting & Finance"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1189,
+          "x": 305,
+          "y": 952
+        },
+        "page": 1
+      },
+      "value": "Accounting & Finance"
+    },
+    {
+      "category": "institution",
+      "confidence": 0.810335636138916,
+      "field": "institution_name",
+      "field_id": "field_institution_name_1",
+      "original": {
+        "confidence": 0.628671407699585,
+        "source": {
+          "bbox": {
+            "height": 61,
+            "width": 2031,
+            "x": 163,
+            "y": 150
+          },
+          "page": 1
+        },
+        "value": "University of Oxford"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 61,
+          "width": 2031,
+          "x": 163,
+          "y": 150
+        },
+        "page": 1
+      },
+      "value": "University of Oxford"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9777723550796509,
+      "field": "course_code",
+      "field_id": "field_course_code_1",
+      "original": {
+        "confidence": 0.9555448293685913,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 101"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1472
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 101"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9599742889404297,
+      "field": "course_title",
+      "field_id": "field_course_title_1",
+      "original": {
+        "confidence": 0.9599485397338867,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Intro to Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1472
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Intro to Accounting"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9841372966766357,
+      "field": "credits",
+      "field_id": "field_credits_1",
+      "original": {
+        "confidence": 0.9682745933532715,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1472
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_1",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1476
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 1476
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9815307855606079,
+      "field": "course_code",
+      "field_id": "field_course_code_2",
+      "original": {
+        "confidence": 0.9630615711212158,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 102"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1568
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 102"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9432591199874878,
+      "field": "course_title",
+      "field_id": "field_course_title_2",
+      "original": {
+        "confidence": 0.9265183210372925,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Introduction to Accounting II"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1568
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Introduction to Accounting II"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.984520673751831,
+      "field": "credits",
+      "field_id": "field_credits_2",
+      "original": {
+        "confidence": 0.9690414667129517,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1568
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_2",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1572
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 1572
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9638098478317261,
+      "field": "course_code",
+      "field_id": "field_course_code_3",
+      "original": {
+        "confidence": 0.9276198148727417,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "FINC 201"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1664
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "FINC 201"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9614640474319458,
+      "field": "course_title",
+      "field_id": "field_course_title_3",
+      "original": {
+        "confidence": 0.962928056716919,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Raising Individual Financial Awareness"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1664
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Raising Individual Financial Awareness"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9841780662536621,
+      "field": "credits",
+      "field_id": "field_credits_3",
+      "original": {
+        "confidence": 0.9683562517166138,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1664
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_3",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1668
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 1668
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9750248193740845,
+      "field": "course_code",
+      "field_id": "field_course_code_4",
+      "original": {
+        "confidence": 0.9500497579574585,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 203"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1760
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "BUSI 203"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9601705074310303,
+      "field": "course_title",
+      "field_id": "field_course_title_4",
+      "original": {
+        "confidence": 0.9603411555290222,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Essential Information Skills"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1760
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Essential Information Skills"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9841780662536621,
+      "field": "credits",
+      "field_id": "field_credits_4",
+      "original": {
+        "confidence": 0.9683562517166138,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1760
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_4",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1764
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 1764
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9702948331832886,
+      "field": "course_code",
+      "field_id": "field_course_code_5",
+      "original": {
+        "confidence": 0.9405897855758667,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 101"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1857
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "BUSI 101"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.966681718826294,
+      "field": "course_title",
+      "field_id": "field_course_title_5",
+      "original": {
+        "confidence": 0.9586968421936035,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Foundations of Business"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1857
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Foundations of Business"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.984627366065979,
+      "field": "credits",
+      "field_id": "field_credits_5",
+      "original": {
+        "confidence": 0.9692546725273132,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1544,
+          "x": 325,
+          "y": 1857
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_5",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1861
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 1861
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9778003692626953,
+      "field": "course_code",
+      "field_id": "field_course_code_6",
+      "original": {
+        "confidence": 0.9556007385253906,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1953
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9787938594818115,
+      "field": "course_title",
+      "field_id": "field_course_title_6",
+      "original": {
+        "confidence": 0.9655876755714417,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Business Accounting Systems"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1953
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Business Accounting Systems"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.983924388885498,
+      "field": "credits",
+      "field_id": "field_credits_6",
+      "original": {
+        "confidence": 0.9678488969802856,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 1953
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_6",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 1957
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 22,
+          "x": 1847,
+          "y": 1957
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "B"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9756530523300171,
+      "field": "course_code",
+      "field_id": "field_course_code_7",
+      "original": {
+        "confidence": 0.9513061046600342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 401"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1547,
+          "x": 321,
+          "y": 2049
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 401"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9508815407752991,
+      "field": "course_title",
+      "field_id": "field_course_title_7",
+      "original": {
+        "confidence": 0.898915708065033,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Financial Accounting and Reporting 3 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1547,
+          "x": 321,
+          "y": 2049
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Financial Accounting and Reporting E Cc"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.956006646156311,
+      "field": "credits",
+      "field_id": "field_credits_7",
+      "original": {
+        "confidence": 0.9120132327079773,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1547,
+          "x": 321,
+          "y": 2049
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_7",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1547,
+          "x": 321,
+          "y": 2049
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "C"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9802550077438354,
+      "field": "course_code",
+      "field_id": "field_course_code_8",
+      "original": {
+        "confidence": 0.9605101346969604,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 402"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2146
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 402"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9780389070510864,
+      "field": "course_title",
+      "field_id": "field_course_title_8",
+      "original": {
+        "confidence": 0.9640779495239258,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Management Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2146
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Management Accounting"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9837466478347778,
+      "field": "credits",
+      "field_id": "field_credits_8",
+      "original": {
+        "confidence": 0.9674932956695557,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2146
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_8",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 2150
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 2150
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9603654146194458,
+      "field": "course_code",
+      "field_id": "field_course_code_9",
+      "original": {
+        "confidence": 0.9207309484481812,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "FINC 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2242
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "FINC 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9633290767669678,
+      "field": "course_title",
+      "field_id": "field_course_title_9",
+      "original": {
+        "confidence": 0.9666582345962524,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Corporate Finance"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2242
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Corporate Finance"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9837477207183838,
+      "field": "credits",
+      "field_id": "field_credits_9",
+      "original": {
+        "confidence": 0.9674955010414124,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2242
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_9",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2246
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 22,
+          "x": 1847,
+          "y": 2246
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "B"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9769060611724854,
+      "field": "course_code",
+      "field_id": "field_course_code_10",
+      "original": {
+        "confidence": 0.9538121223449707,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 601"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2338
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "ACCT 601"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9701025485992432,
+      "field": "course_title",
+      "field_id": "field_course_title_10",
+      "original": {
+        "confidence": 0.9655384421348572,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Research in Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2338
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Research in Accounting"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9846252202987671,
+      "field": "credits",
+      "field_id": "field_credits_10",
+      "original": {
+        "confidence": 0.9692504405975342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2338
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_10",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2342
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 22,
+          "x": 1847,
+          "y": 2342
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "B"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9644739627838135,
+      "field": "course_code",
+      "field_id": "field_course_code_11",
+      "original": {
+        "confidence": 0.9289478659629822,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 499"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2435
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "BUSI 499"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9467064142227173,
+      "field": "course_title",
+      "field_id": "field_course_title_11",
+      "original": {
+        "confidence": 0.9334127902984619,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Personal and Professional Development"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2435
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Personal and Professional Development"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9230407476425171,
+      "field": "credits",
+      "field_id": "field_credits_11",
+      "original": {
+        "confidence": 0.8460816144943237,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1544,
+          "x": 325,
+          "y": 2435
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_11",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2439
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 22,
+          "x": 1847,
+          "y": 2439
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "B"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9680811166763306,
+      "field": "course_code",
+      "field_id": "field_course_code_12",
+      "original": {
+        "confidence": 0.9361622333526611,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "AUDT 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2531
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "AUDT 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.96868896484375,
+      "field": "course_title",
+      "field_id": "field_course_title_12",
+      "original": {
+        "confidence": 0.9661779403686523,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Introduction to Auditing Theory and"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2531
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Introduction to Auditing Theory and"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9846252202987671,
+      "field": "credits",
+      "field_id": "field_credits_12",
+      "original": {
+        "confidence": 0.9692504405975342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1548,
+          "x": 321,
+          "y": 2531
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_12",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2535
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 22,
+          "x": 1847,
+          "y": 2535
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "B"
+    },
+    {
+      "category": "table",
+      "confidence": 0.9496383666992188,
+      "field": "table_row",
+      "field_id": "row_generic_1",
+      "original": {
+        "confidence": 0.9672766923904419,
+        "source": {
+          "bbox": {
+            "height": 28,
+            "width": 146,
+            "x": 757,
+            "y": 2587
+          },
+          "page": 1
+        },
+        "value": "Practice"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 28,
+          "width": 146,
+          "x": 757,
+          "y": 2587
+        },
+        "page": 1
+      },
+      "value": "Practice"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.977349042892456,
+      "field": "course_code",
+      "field_id": "field_course_code_13",
+      "original": {
+        "confidence": 0.9546982049942017,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "MIS 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1563,
+          "x": 306,
+          "y": 2680
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "MIS 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9749178886413574,
+      "field": "course_title",
+      "field_id": "field_course_title_13",
+      "original": {
+        "confidence": 0.9578357338905334,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Management Information Systems"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1563,
+          "x": 306,
+          "y": 2680
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Management Information Systems"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9836016893386841,
+      "field": "credits",
+      "field_id": "field_credits_13",
+      "original": {
+        "confidence": 0.9672033786773682,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 44,
+          "width": 1563,
+          "x": 306,
+          "y": 2680
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_13",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 2684
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 27,
+          "width": 26,
+          "x": 1843,
+          "y": 2684
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "A"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9723556041717529,
+      "field": "course_code",
+      "field_id": "field_course_code_14",
+      "original": {
+        "confidence": 0.9447112679481506,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "LAW 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1562,
+          "x": 306,
+          "y": 2776
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "LAW 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9276392459869385,
+      "field": "course_title",
+      "field_id": "field_course_title_14",
+      "original": {
+        "confidence": 0.8952786326408386,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Corporate and Business Law 2 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1562,
+          "x": 306,
+          "y": 2776
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Corporate and Business Law 2 Cc"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9538184404373169,
+      "field": "credits",
+      "field_id": "field_credits_14",
+      "original": {
+        "confidence": 0.9076368808746338,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "2"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1562,
+          "x": 306,
+          "y": 2776
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "2"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_14",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 43,
+          "width": 1562,
+          "x": 306,
+          "y": 2776
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "C"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9748156070709229,
+      "field": "course_code",
+      "field_id": "field_course_code_15",
+      "original": {
+        "confidence": 0.9496312141418457,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "TAX 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 42,
+          "width": 1547,
+          "x": 321,
+          "y": 2872
+        },
+        "field": "course_code",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "TAX 301"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9155494570732117,
+      "field": "course_title",
+      "field_id": "field_course_title_15",
+      "original": {
+        "confidence": 0.847998857498169,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Personal Taxation 3 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 42,
+          "width": 1547,
+          "x": 321,
+          "y": 2872
+        },
+        "field": "course_title",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "Personal Taxation E Cc"
+    },
+    {
+      "category": "course_record",
+      "confidence": 0.9409381151199341,
+      "field": "credits",
+      "field_id": "field_credits_15",
+      "original": {
+        "confidence": 0.8818762898445129,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 42,
+          "width": 1547,
+          "x": 321,
+          "y": 2872
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "3"
+    },
+    {
+      "category": "course_record",
+      "confidence": 1.0,
+      "field": "grade",
+      "field_id": "field_grade_15",
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "source": {
+        "bbox": {
+          "height": 42,
+          "width": 1547,
+          "x": 321,
+          "y": 2872
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "COMPLETED",
+      "value": "C"
+    }
+  ],
+  "identity": {
+    "birthdate": "Jun 261997",
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "pages": [
+    {
+      "blocks": [
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9680016040802002,
+            "mean": 0.628671407699585,
+            "minimum": 0.0,
+            "token_count": 5
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_1",
+          "source": {
+            "bbox": {
+              "height": 61,
+              "width": 2031,
+              "x": 163,
+              "y": 150
+            },
+            "page": 1
+          },
+          "text": "si =6UNIVERSITY OF OXFORD 01/28/2019",
+          "type": "header"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9566683769226074,
+            "mean": 0.9566683769226074,
+            "minimum": 0.9566683769226074,
+            "token_count": 2
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_2",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 584,
+              "x": 301,
+              "y": 568
+            },
+            "page": 1
+          },
+          "text": "STUDENT INFORMATION",
+          "type": "heading"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9658716320991516,
+            "mean": 0.9285731315612793,
+            "minimum": 0.8526188135147095,
+            "token_count": 4
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_3",
+          "label": "NAME",
+          "source": {
+            "bbox": {
+              "height": 55,
+              "width": 979,
+              "x": 305,
+              "y": 687
+            },
+            "page": 1
+          },
+          "text": "NAME : Sophia Jones",
+          "type": "label_value",
+          "value": "Sophia Jones"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9411978721618652,
+            "mean": 0.7907170057296753,
+            "minimum": 0.5827531218528748,
+            "token_count": 4
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_4",
+          "label": "STUDENT ID",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 874,
+              "x": 302,
+              "y": 761
+            },
+            "page": 1
+          },
+          "text": "STUDENT ID > 2291829",
+          "type": "label_value",
+          "value": "2291829"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 2,
+            "maximum": 0.9559829831123352,
+            "mean": 0.7628160715103149,
+            "minimum": 0.47390151023864746,
+            "token_count": 5
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_5",
+          "label": "BIRTHDATE",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 942,
+              "x": 305,
+              "y": 825
+            },
+            "page": 1
+          },
+          "text": "BIRTHDATE : Jun 261997",
+          "type": "label_value",
+          "value": "Jun 261997"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9664607048034668,
+            "mean": 0.878218412399292,
+            "minimum": 0.8334233164787292,
+            "token_count": 3
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_6",
+          "label": "DEPARTMENT",
+          "source": {
+            "bbox": {
+              "height": 48,
+              "width": 944,
+              "x": 305,
+              "y": 886
+            },
+            "page": 1
+          },
+          "text": "DEPARTMENT : Accounting",
+          "type": "label_value",
+          "value": "Accounting"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9681023359298706,
+            "mean": 0.9151702523231506,
+            "minimum": 0.8148648738861084,
+            "token_count": 6
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_7",
+          "label": "BACHELORS MAJOR",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1189,
+              "x": 305,
+              "y": 952
+            },
+            "page": 1
+          },
+          "text": "BACHELORS MAJOR : Accounting & Finance",
+          "type": "label_value",
+          "value": "Accounting & Finance"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9639979004859924,
+            "mean": 0.9463439583778381,
+            "minimum": 0.9285807609558105,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_8",
+          "source": {
+            "bbox": {
+              "height": 34,
+              "width": 1483,
+              "x": 305,
+              "y": 1146
+            },
+            "page": 1
+          },
+          "text": "DEGREES AWARDED - BACHELORS IN ACCOUNTING & FINANCE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9688134789466858,
+            "mean": 0.964806079864502,
+            "minimum": 0.9593107104301453,
+            "token_count": 6
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_9",
+          "source": {
+            "bbox": {
+              "height": 47,
+              "width": 1654,
+              "x": 321,
+              "y": 1334
+            },
+            "page": 1
+          },
+          "text": "TEACH CRS COURSE DESCRIPTION CREDITS GRADE",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9682745933532715,
+            "mean": 0.9598828554153442,
+            "minimum": 0.9491584300994873,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_10",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          },
+          "text": "ACCT 101 Intro to Accounting | 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9690414667129517,
+            "mean": 0.9449681043624878,
+            "minimum": 0.8118472099304199,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_11",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          },
+          "text": "ACCT 102 Introduction to Accounting II 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9544599652290344,
+            "minimum": 0.9101470708847046,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_12",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          },
+          "text": "FINC 201 Raising Individual Financial Awareness 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9683562517166138,
+            "mean": 0.9592651128768921,
+            "minimum": 0.9332025051116943,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_13",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          },
+          "text": "BUSI 203 Essential Information Skills 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692546725273132,
+            "mean": 0.9559859037399292,
+            "minimum": 0.9366409778594971,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_14",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          },
+          "text": "BUSI 101 Foundations of Business 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9577473998069763,
+            "minimum": 0.928418755531311,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_15",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          },
+          "text": "ACCT 301 Business Accounting Systems 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.9678488969802856,
+            "mean": 0.9120132327079773,
+            "minimum": 0.5725988149642944,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_16",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          },
+          "text": "ACCT 401 Financial Accounting and Reporting 3 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9674932956695557,
+            "mean": 0.9631743431091309,
+            "minimum": 0.9584468007087708,
+            "token_count": 6
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_17",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          },
+          "text": "ACCT 402 Management Accounting 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9677064418792725,
+            "mean": 0.9453015923500061,
+            "minimum": 0.9177321791648865,
+            "token_count": 6
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_18",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          },
+          "text": "FINC 301 Corporate Finance 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9574441909790039,
+            "minimum": 0.928619384765625,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_19",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          },
+          "text": "ACCT 601 Research in Accounting 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9643068909645081,
+            "mean": 0.9207230806350708,
+            "minimum": 0.8460816144943237,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_20",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          },
+          "text": "BUSI 499 Personal and Professional Development 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9692504405975342,
+            "mean": 0.9556556344032288,
+            "minimum": 0.9284359812736511,
+            "token_count": 9
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_21",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          },
+          "text": "AUDT 301 Introduction to Auditing Theory and 3 B",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672766923904419,
+            "mean": 0.9672766923904419,
+            "minimum": 0.9672766923904419,
+            "token_count": 1
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_22",
+          "source": {
+            "bbox": {
+              "height": 28,
+              "width": 146,
+              "x": 757,
+              "y": 2587
+            },
+            "page": 1
+          },
+          "text": "Practice",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 0,
+            "maximum": 0.9672799706459045,
+            "mean": 0.9585173726081848,
+            "minimum": 0.9421164989471436,
+            "token_count": 7
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_23",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          },
+          "text": "MIS 301 Management Information Systems 3 A",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.970116138458252,
+            "mean": 0.9076367616653442,
+            "minimum": 0.555906355381012,
+            "token_count": 8
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_24",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          },
+          "text": "LAW 301 Corporate and Business Law 2 Cc",
+          "type": "paragraph"
+        },
+        {
+          "confidence": {
+            "low_confidence_token_count": 1,
+            "maximum": 0.964331865310669,
+            "mean": 0.8818764090538025,
+            "minimum": 0.5149005651473999,
+            "token_count": 6
+          },
+          "fate": "PRESERVED",
+          "id": "block_p1_25",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          },
+          "text": "TAX 301 Personal Taxation 3 Cc",
+          "type": "paragraph"
+        }
+      ],
+      "confidence": {
+        "low_confidence_token_count": 8,
+        "maximum": 0.970116138458252,
+        "mean": 0.9209398031234741,
+        "minimum": 0.0,
+        "token_count": 153
+      },
+      "fate": "PRESERVED",
+      "height": 3300,
+      "page_number": 1,
+      "rotation": 0,
+      "width": 2550
+    }
+  ],
+  "resolutions": {
+    "deterministic": 67,
+    "llm_resolved": 0,
+    "ocr_confident": 0,
+    "rejected": 0,
+    "unresolved": 0
+  },
+  "schema_version": "edr-enhanced-0.1",
+  "tables": [
+    {
+      "columns": [
+        {
+          "canonical_name": "course_code",
+          "column_index": 0,
+          "confidence": 0.0,
+          "name": "course_code"
+        },
+        {
+          "canonical_name": "course_title",
+          "column_index": 1,
+          "confidence": 0.0,
+          "name": "course_title"
+        },
+        {
+          "canonical_name": "credits",
+          "column_index": 2,
+          "confidence": 0.0,
+          "name": "credits"
+        },
+        {
+          "canonical_name": "grade",
+          "column_index": 3,
+          "confidence": 0.0,
+          "name": "grade"
+        }
+      ],
+      "confidence": {
+        "low_confidence_token_count": 1,
+        "maximum": 0.9692546725273132,
+        "mean": 0.9314772486686707,
+        "minimum": 0.0,
+        "token_count": 56
+      },
+      "fate": "STRUCTURED",
+      "has_header": true,
+      "id": "table_p1_1",
+      "page_end": 1,
+      "page_start": 1,
+      "rows": [
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9555448293685913,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 296,
+                  "x": 321,
+                  "y": 1472
+                },
+                "page": 1
+              },
+              "text": "ACCT 101"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9599485397338867,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 358,
+                  "x": 757,
+                  "y": 1475
+                },
+                "page": 1
+              },
+              "text": "Intro to Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9682745933532715,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9599707126617432,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9605339765548706,
+          "course_code": "ACCT 101",
+          "course_title": "Intro to Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9630615711212158,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 306,
+                  "x": 321,
+                  "y": 1568
+                },
+                "page": 1
+              },
+              "text": "ACCT 102"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9265183210372925,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 536,
+                  "x": 757,
+                  "y": 1571
+                },
+                "page": 1
+              },
+              "text": "Introduction to Accounting II"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9690414667129517,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9585071802139282,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9449681043624878,
+          "course_code": "ACCT 102",
+          "course_title": "Introduction to Accounting II",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9276198148727417,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 299,
+                  "x": 325,
+                  "y": 1664
+                },
+                "page": 1
+              },
+              "text": "FINC 201"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.962928056716919,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 720,
+                  "x": 757,
+                  "y": 1667
+                },
+                "page": 1
+              },
+              "text": "Raising Individual Financial Awareness"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9683562517166138,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9603720903396606,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.954460084438324,
+          "course_code": "FINC 201",
+          "course_title": "Raising Individual Financial Awareness",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9500497579574585,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 309,
+                  "x": 325,
+                  "y": 1760
+                },
+                "page": 1
+              },
+              "text": "BUSI 203"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9603411555290222,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 29,
+                  "width": 498,
+                  "x": 757,
+                  "y": 1763
+                },
+                "page": 1
+              },
+              "text": "Essential Information Skills"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9683562517166138,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9653763771057129,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9592651128768921,
+          "course_code": "BUSI 203",
+          "course_title": "Essential Information Skills",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9405897855758667,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 292,
+                  "x": 325,
+                  "y": 1857
+                },
+                "page": 1
+              },
+              "text": "BUSI 101"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9586968421936035,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 454,
+                  "x": 757,
+                  "y": 1860
+                },
+                "page": 1
+              },
+              "text": "Foundations of Business"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692546725273132,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9653763771057129,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9559858441352844,
+          "course_code": "BUSI 101",
+          "course_title": "Foundations of Business",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9556007385253906,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 1953
+                },
+                "page": 1
+              },
+              "text": "ACCT 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9655876755714417,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 555,
+                  "x": 757,
+                  "y": 1956
+                },
+                "page": 1
+              },
+              "text": "Business Accounting Systems"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9678488969802856,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.928418755531311,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9577473998069763,
+          "course_code": "ACCT 301",
+          "course_title": "Business Accounting Systems",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9513061046600342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 307,
+                  "x": 321,
+                  "y": 2049
+                },
+                "page": 1
+              },
+              "text": "ACCT 401"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.898915708065033,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 1111,
+                  "x": 757,
+                  "y": 2052
+                },
+                "page": 1
+              },
+              "text": "Financial Accounting and Reporting 3 Cc"
+            }
+          ],
+          "confidence": 0.9120132327079773,
+          "course_code": "ACCT 401",
+          "course_title": "Financial Accounting and Reporting 3 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9605101346969604,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 317,
+                  "x": 321,
+                  "y": 2146
+                },
+                "page": 1
+              },
+              "text": "ACCT 402"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9640779495239258,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 477,
+                  "x": 757,
+                  "y": 2149
+                },
+                "page": 1
+              },
+              "text": "Management Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9674932956695557,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9623765349388123,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9631743431091309,
+          "course_code": "ACCT 402",
+          "course_title": "Management Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9207309484481812,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 299,
+                  "x": 325,
+                  "y": 2242
+                },
+                "page": 1
+              },
+              "text": "FINC 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9666582345962524,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 342,
+                  "x": 755,
+                  "y": 2245
+                },
+                "page": 1
+              },
+              "text": "Corporate Finance"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9674955010414124,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9295358061790466,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9453016519546509,
+          "course_code": "FINC 301",
+          "course_title": "Corporate Finance",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9538121223449707,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 305,
+                  "x": 321,
+                  "y": 2338
+                },
+                "page": 1
+              },
+              "text": "ACCT 601"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9655384421348572,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 439,
+                  "x": 757,
+                  "y": 2341
+                },
+                "page": 1
+              },
+              "text": "Research in Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692504405975342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.928619384765625,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9574442505836487,
+          "course_code": "ACCT 601",
+          "course_title": "Research in Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9289478659629822,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 312,
+                  "x": 325,
+                  "y": 2435
+                },
+                "page": 1
+              },
+              "text": "BUSI 499"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9334127902984619,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 745,
+                  "x": 757,
+                  "y": 2438
+                },
+                "page": 1
+              },
+              "text": "Personal and Professional Development"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.8460816144943237,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9281557202339172,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.920723021030426,
+          "course_code": "BUSI 499",
+          "course_title": "Personal and Professional Development",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9361622333526611,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2531
+                },
+                "page": 1
+              },
+              "text": "AUDT 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9661779403686523,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 671,
+                  "x": 757,
+                  "y": 2534
+                },
+                "page": 1
+              },
+              "text": "Introduction to Auditing Theory and"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692504405975342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9284359812736511,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.955655574798584,
+          "course_code": "AUDT 301",
+          "course_title": "Introduction to Auditing Theory and",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9672766923904419,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 146,
+                  "x": 757,
+                  "y": 2587
+                },
+                "page": 1
+              },
+              "text": "Practice"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.0,
+              "fate": "STRUCTURED",
+              "source": {
+                "page": 1
+              },
+              "text": ""
+            }
+          ],
+          "confidence": 0.9672766923904419,
+          "course_code": "Practice",
+          "course_title": "",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 28,
+              "width": 146,
+              "x": 757,
+              "y": 2587
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9546982049942017,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2680
+                },
+                "page": 1
+              },
+              "text": "MIS 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9578357338905334,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 650,
+                  "x": 757,
+                  "y": 2683
+                },
+                "page": 1
+              },
+              "text": "Management Information Systems"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9672033786773682,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9595146179199219,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9585173726081848,
+          "course_code": "MIS 301",
+          "course_title": "Management Information Systems",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9447112679481506,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2776
+                },
+                "page": 1
+              },
+              "text": "LAW 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.8952786326408386,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 1113,
+                  "x": 755,
+                  "y": 2779
+                },
+                "page": 1
+              },
+              "text": "Corporate and Business Law 2 Cc"
+            }
+          ],
+          "confidence": 0.9076368808746338,
+          "course_code": "LAW 301",
+          "course_title": "Corporate and Business Law 2 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9496312141418457,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 42,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2872
+                },
+                "page": 1
+              },
+              "text": "TAX 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.847998857498169,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 29,
+                  "width": 1111,
+                  "x": 757,
+                  "y": 2876
+                },
+                "page": 1
+              },
+              "text": "Personal Taxation 3 Cc"
+            }
+          ],
+          "confidence": 0.8818762898445129,
+          "course_code": "TAX 301",
+          "course_title": "Personal Taxation 3 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          }
+        }
+      ],
+      "source": {
+        "bbox": {
+          "height": 1442,
+          "width": 1563,
+          "x": 306,
+          "y": 1472
+        },
+        "page": 1
+      },
+      "table_type": "course_records"
+    }
+  ]
+}

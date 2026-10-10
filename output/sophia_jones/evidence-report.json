@@ -1,0 +1,71 @@
+{
+  "confidence": {
+    "average": 0.9661710262298584,
+    "high_confidence_fields": 63,
+    "low_confidence_fields": 2,
+    "medium_confidence_fields": 2
+  },
+  "correction": {
+    "attempted": 67,
+    "corrected": 2,
+    "unchanged": 65
+  },
+  "coverage": {
+    "represented_items": 123,
+    "source_items": 123,
+    "unaccounted_loss": 0
+  },
+  "llm": {
+    "estimated_tokens": 68,
+    "required": false,
+    "task_count": 0
+  },
+  "performance_breakdown_ms": {
+    "audit": 0.002,
+    "correction": 1.102,
+    "evidence_parsing": 0.164,
+    "field_extraction": 3.155,
+    "fusion": 0.283,
+    "llm_context": 0.014,
+    "routing": 0.957,
+    "serialization": 0.0
+  },
+  "processing": {
+    "execution_time_ms": 5.959,
+    "pages": 1
+  },
+  "quality": {
+    "duplicate_tasks_removed": 0,
+    "invalid_field_rejections": 0,
+    "placeholder_rejections": 0,
+    "structural_rejections": 0
+  },
+  "routing": {
+    "confidence_epsilon": 0.0010000000474974513,
+    "deterministically_resolved": 67,
+    "epsilon": 0.0010000000474974513,
+    "high_confidence": 0,
+    "insufficient_evidence": 0,
+    "invalid": 0,
+    "llm_confidence_threshold": 0.8999999761581421,
+    "llm_eligible": 0,
+    "llm_rejected": 0,
+    "llm_required": 0,
+    "llm_tasks_created": 0,
+    "placeholders": 0,
+    "structural": 0,
+    "structural_items": 0,
+    "threshold": 0.8999999761581421,
+    "total_candidates": 67,
+    "valid_fields": 67
+  },
+  "schema_version": "evidence-report-0.1",
+  "source": {
+    "blocks": 50,
+    "cells": 56,
+    "fields": 67,
+    "rows": 16,
+    "tables": 1,
+    "tokens": 25
+  }
+}

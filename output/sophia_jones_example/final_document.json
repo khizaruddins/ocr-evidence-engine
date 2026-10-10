@@ -1,0 +1,367 @@
+{
+  "confidence": {
+    "average": 0.9628198146820068,
+    "extraction": 0.9371983408927917,
+    "method": "WEIGHTED_SEMANTIC_FIELDS",
+    "minimum": 0.7624564170837402,
+    "overall": 0.9257224202156067,
+    "resolved_field": 0.9257224202156067,
+    "resolved_fields": 0.9257224202156067
+  },
+  "courses": [
+    {
+      "confidence": 0.9617029428482056,
+      "course_code": "ACCT 101",
+      "course_title": "Intro to Accounting",
+      "credits": 3.0,
+      "grade": "A",
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 33,
+          "width": 844,
+          "x": 215,
+          "y": 979
+        },
+        "field": "grade",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9515085220336914,
+      "course_code": "ACCT 102",
+      "course_title": "Introduction to Accounting II",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 24,
+          "width": 844,
+          "x": 215,
+          "y": 1047
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9580377340316772,
+      "course_code": "FINC 201",
+      "course_title": "Raising Individual Financial Awareness",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 842,
+          "x": 217,
+          "y": 1108
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9626458883285522,
+      "course_code": "BUSI 203",
+      "course_title": "Essential Information Skills",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 842,
+          "x": 217,
+          "y": 1172
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9671112298965454,
+      "course_code": "BUSI 101",
+      "course_title": "Foundations of Business",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 33,
+          "width": 842,
+          "x": 217,
+          "y": 1235
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9606136083602905,
+      "course_code": "ACCT 301",
+      "course_title": "Business Accounting Systems",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 33,
+          "width": 844,
+          "x": 215,
+          "y": 1300
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9578332901000977,
+      "course_code": "ACCT 401",
+      "course_title": "Financial Accounting and Reporting",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 844,
+          "x": 215,
+          "y": 1364
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9783799648284912,
+      "course_code": "ACCT 402",
+      "course_title": "Management Accounting",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 31,
+          "width": 844,
+          "x": 215,
+          "y": 1429
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.956881046295166,
+      "course_code": "FINC 301",
+      "course_title": "Corporate Finance",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 842,
+          "x": 217,
+          "y": 1492
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9683787822723389,
+      "course_code": "ACCT 601",
+      "course_title": "Research in Accounting",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 33,
+          "width": 844,
+          "x": 215,
+          "y": 1556
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9416921138763428,
+      "course_code": "BUSI 499",
+      "course_title": "Personal and Professional Development",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 842,
+          "x": 217,
+          "y": 1621
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9639987945556641,
+      "course_code": "AUDT 301",
+      "course_title": "Introduction to Auditing Theory and",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 844,
+          "x": 215,
+          "y": 1685
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9752572774887085,
+      "course_code": "MIS 301",
+      "course_title": "Management Information Systems",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 842,
+          "x": 217,
+          "y": 1784
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9618750810623169,
+      "course_code": "LAW 301",
+      "course_title": "Corporate and Business Law",
+      "credits": 2.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 32,
+          "width": 857,
+          "x": 202,
+          "y": 1848
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    },
+    {
+      "confidence": 0.9602513313293457,
+      "course_code": "TAX 301",
+      "course_title": "Personal Taxation",
+      "credits": 3.0,
+      "grade": null,
+      "quality_points": null,
+      "resolution_method": "OCR",
+      "source": {
+        "bbox": {
+          "height": 33,
+          "width": 844,
+          "x": 215,
+          "y": 1913
+        },
+        "field": "credits",
+        "page": 1
+      },
+      "status": "REGISTERED",
+      "term": null
+    }
+  ],
+  "document": {
+    "document_id": "doc_1787168380294_645e3a",
+    "document_type": "transcript",
+    "page_count": 1
+  },
+  "document_id": "doc_1787168380294_645e3a",
+  "document_readiness": "READY",
+  "document_type": "transcript",
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "program": {
+    "degree": null,
+    "major": "Accounting & Finance",
+    "minor": null,
+    "school": "Accounting"
+  },
+  "resolution": {
+    "ai_unresolved": 0,
+    "deterministic": 54,
+    "llm_required": 0,
+    "llm_resolved": 0,
+    "normalized": 0,
+    "ocr_confident": 0,
+    "unresolved": 0
+  },
+  "schema_version": "edmo-final-document-0.1",
+  "student": {
+    "birthdate": "Jun 26 1997",
+    "name": "Sophia Jones",
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "summary": {
+    "cumulative_gpa": null,
+    "gpa": null,
+    "term_gpa": null,
+    "total_credits_earned": null
+  }
+}

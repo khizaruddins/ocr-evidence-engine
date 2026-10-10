@@ -1,0 +1,5162 @@
+{
+  "academic": {
+    "department": "Accounting",
+    "major": "Accounting & Finance"
+  },
+  "confidence": {
+    "low_confidence_token_count": 8,
+    "maximum": 0.970116138458252,
+    "mean": 0.9209398031234741,
+    "minimum": 0.0,
+    "token_count": 153
+  },
+  "document": {
+    "document_id": "sophia_auto",
+    "document_type": "transcript",
+    "page_count": 1,
+    "source": "/home/khizaruddin/Downloads/Sophia Jones Transcript.pdf"
+  },
+  "engine": {
+    "name": "edmo-ocr",
+    "provider": "tesseract",
+    "version": "0.2.0"
+  },
+  "fields": [
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "identity",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9285731315612793,
+        "method": "NONE",
+        "value": "Sophia Jones"
+      },
+      "fate": "PRESERVED",
+      "field": "student_name",
+      "field_id": "field_student_name_1",
+      "final": {
+        "confidence": 0.9542865753173828,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Sophia Jones"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.949999988079071,
+        "final_confidence": 0.9542865753173828,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9285731315612793,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_3",
+      "label_text": "NAME",
+      "original": {
+        "confidence": 0.9285731315612793,
+        "source": {
+          "bbox": {
+            "height": 55,
+            "width": 979,
+            "x": 305,
+            "y": 687
+          },
+          "page": 1
+        },
+        "value": "Sophia Jones"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "source_block_id": "block_p1_3",
+      "structural_class": "STUDENT_METADATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "identity",
+      "correction": {
+        "applied": false,
+        "confidence": 0.7907170057296753,
+        "method": "NONE",
+        "value": "2291829"
+      },
+      "fate": "PRESERVED",
+      "field": "student_id",
+      "field_id": "field_student_id_2",
+      "final": {
+        "confidence": 0.8953584432601929,
+        "llm_required": false,
+        "trusted": true,
+        "value": "2291829"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.8953584432601929,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.7907170057296753,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_4",
+      "label_text": "STUDENT ID",
+      "original": {
+        "confidence": 0.7907170057296753,
+        "low_confidence_tokens": 1,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 874,
+            "x": 302,
+            "y": 761
+          },
+          "page": 1
+        },
+        "value": "2291829"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "source_block_id": "block_p1_4",
+      "structural_class": "STUDENT_METADATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "identity",
+      "correction": {
+        "applied": false,
+        "confidence": 0.7628160715103149,
+        "method": "NONE",
+        "value": "Jun 261997"
+      },
+      "fate": "PRESERVED",
+      "field": "birthdate",
+      "field_id": "field_birthdate_3",
+      "final": {
+        "confidence": 0.7380746603012085,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Jun 26 1997"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.28333333134651184,
+        "final_confidence": 0.7380746603012085,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.7628160715103149,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_5",
+      "label_text": "BIRTHDATE",
+      "normalization": {
+        "applied": true,
+        "operations": [
+          "SPLIT_MERGED_DAY_YEAR",
+          "NORMALIZE_DATE"
+        ]
+      },
+      "normalized_value": "Jun 26 1997",
+      "original": {
+        "confidence": 0.7628160715103149,
+        "low_confidence_tokens": 2,
+        "source": {
+          "bbox": {
+            "height": 34,
+            "width": 942,
+            "x": 305,
+            "y": 825
+          },
+          "page": 1
+        },
+        "value": "Jun 261997"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "source_block_id": "block_p1_5",
+      "structural_class": "STUDENT_METADATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "academic",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Accounting"
+      },
+      "fate": "PRESERVED",
+      "field": "department",
+      "field_id": "field_department_4",
+      "final": {
+        "confidence": 0.9351091384887695,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Accounting"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.9351091384887695,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.878218412399292,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_6",
+      "label_text": "DEPARTMENT",
+      "original": {
+        "confidence": 0.878218412399292,
+        "source": {
+          "bbox": {
+            "height": 48,
+            "width": 944,
+            "x": 305,
+            "y": 886
+          },
+          "page": 1
+        },
+        "value": "Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "source_block_id": "block_p1_6",
+      "structural_class": "STUDENT_METADATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "academic",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9151702523231506,
+        "method": "NONE",
+        "value": "Accounting & Finance"
+      },
+      "fate": "PRESERVED",
+      "field": "major",
+      "field_id": "field_major_5",
+      "final": {
+        "confidence": 0.888251781463623,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Accounting & Finance"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.6533333659172058,
+        "final_confidence": 0.888251781463623,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9151702523231506,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_7",
+      "label_text": "BACHELORS MAJOR",
+      "original": {
+        "confidence": 0.9151702523231506,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1189,
+            "x": 305,
+            "y": 952
+          },
+          "page": 1
+        },
+        "value": "Accounting & Finance"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "source_block_id": "block_p1_7",
+      "structural_class": "STUDENT_METADATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "institution",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "University of Oxford"
+      },
+      "fate": "PRESERVED",
+      "field": "institution_name",
+      "field_id": "field_institution_name_1",
+      "final": {
+        "confidence": 0.810335636138916,
+        "llm_required": false,
+        "trusted": true,
+        "value": "University of Oxford"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.810335636138916,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.628671407699585,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "label_block_p1_1",
+      "label_text": "INSTITUTION",
+      "original": {
+        "confidence": 0.628671407699585,
+        "low_confidence_tokens": 2,
+        "source": {
+          "bbox": {
+            "height": 61,
+            "width": 2031,
+            "x": 163,
+            "y": 150
+          },
+          "page": 1
+        },
+        "value": "University of Oxford"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "INSTITUTION_HEADER",
+      "source_block_id": "block_p1_1",
+      "structural_class": "INSTITUTION_DATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "ACCT 101"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_1",
+      "final": {
+        "confidence": 0.9777723550796509,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 101"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9777723550796509,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9555448293685913,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9555448293685913,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 101"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599485397338867,
+        "method": "NONE",
+        "value": "Intro to Accounting"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_1",
+      "final": {
+        "confidence": 0.9599742889404297,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Intro to Accounting"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9599742889404297,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9599485397338867,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9599485397338867,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Intro to Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_1",
+      "final": {
+        "confidence": 0.9841372966766357,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9841372966766357,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9682745933532715,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9682745933532715,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1472
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_1",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1476
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9630615711212158,
+        "method": "NONE",
+        "value": "ACCT 102"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_2",
+      "final": {
+        "confidence": 0.9815307855606079,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 102"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9815307855606079,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9630615711212158,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 102",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9630615711212158,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 102"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9265183210372925,
+        "method": "NONE",
+        "value": "Introduction to Accounting II"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_2",
+      "final": {
+        "confidence": 0.9432591199874878,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Introduction to Accounting II"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9432591199874878,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9265183210372925,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 102",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9265183210372925,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Introduction to Accounting II"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_2",
+      "final": {
+        "confidence": 0.984520673751831,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.984520673751831,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9690414667129517,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 102",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9690414667129517,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1568
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_2",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 102",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1572
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "FINC 201"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_3",
+      "final": {
+        "confidence": 0.9638098478317261,
+        "llm_required": false,
+        "trusted": true,
+        "value": "FINC 201"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9638098478317261,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9276198148727417,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 201",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9276198148727417,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "FINC 201"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.962928056716919,
+        "method": "NONE",
+        "value": "Raising Individual Financial Awareness"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_3",
+      "final": {
+        "confidence": 0.9614640474319458,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Raising Individual Financial Awareness"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9614640474319458,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.962928056716919,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 201",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.962928056716919,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Raising Individual Financial Awareness"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_3",
+      "final": {
+        "confidence": 0.9841780662536621,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9841780662536621,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9683562517166138,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 201",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9683562517166138,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1664
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_3",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 201",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1668
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "BUSI 203"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_4",
+      "final": {
+        "confidence": 0.9750248193740845,
+        "llm_required": false,
+        "trusted": true,
+        "value": "BUSI 203"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9750248193740845,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9500497579574585,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 203",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9500497579574585,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 203"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9603411555290222,
+        "method": "NONE",
+        "value": "Essential Information Skills"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_4",
+      "final": {
+        "confidence": 0.9601705074310303,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Essential Information Skills"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9601705074310303,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9603411555290222,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 203",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9603411555290222,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Essential Information Skills"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_4",
+      "final": {
+        "confidence": 0.9841780662536621,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9841780662536621,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9683562517166138,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 203",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9683562517166138,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1760
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_4",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 203",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1764
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "BUSI 101"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_5",
+      "final": {
+        "confidence": 0.9702948331832886,
+        "llm_required": false,
+        "trusted": true,
+        "value": "BUSI 101"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9702948331832886,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9405897855758667,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9405897855758667,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 101"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Foundations of Business"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_5",
+      "final": {
+        "confidence": 0.966681718826294,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Foundations of Business"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9366666674613953,
+        "final_confidence": 0.966681718826294,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9586968421936035,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9586968421936035,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Foundations of Business"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_5",
+      "final": {
+        "confidence": 0.984627366065979,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.984627366065979,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9692546725273132,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9692546725273132,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1544,
+            "x": 325,
+            "y": 1857
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_5",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 101",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 1861
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "ACCT 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_6",
+      "final": {
+        "confidence": 0.9778003692626953,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9778003692626953,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9556007385253906,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9556007385253906,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Business Accounting Systems"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_6",
+      "final": {
+        "confidence": 0.9787938594818115,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Business Accounting Systems"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.9787938594818115,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9655876755714417,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9655876755714417,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Business Accounting Systems"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_6",
+      "final": {
+        "confidence": 0.983924388885498,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.983924388885498,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9678488969802856,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9678488969802856,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 1953
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "B"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_6",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "B"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 1957
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "ACCT 401"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_7",
+      "final": {
+        "confidence": 0.9756530523300171,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 401"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9756530523300171,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9513061046600342,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 401",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.9513061046600342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 401"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": true,
+        "candidates": [
+          {
+            "confidence": 0.9163053035736084,
+            "context_score": 0.0,
+            "dictionary_score": 1.0,
+            "method": "CHARACTER_CONFUSION_AND_DICTIONARY",
+            "reason": "Character confusion and domain dictionary match",
+            "similarity_score": 0.9743589758872986,
+            "value": "Financial Accounting and Reporting E Cc"
+          }
+        ],
+        "confidence": 0.9463052749633789,
+        "method": "CHARACTER_CONFUSION_AND_DICTIONARY",
+        "provenance": "Deterministic vocabulary & confusion correction",
+        "value": "Financial Accounting and Reporting E Cc"
+      },
+      "fate": "CORRECTED",
+      "field": "course_title",
+      "field_id": "field_course_title_7",
+      "final": {
+        "confidence": 0.9508815407752991,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Financial Accounting and Reporting E Cc"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9508815407752991,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.898915708065033,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 401",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.898915708065033,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Financial Accounting and Reporting 3 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_7",
+      "final": {
+        "confidence": 0.956006646156311,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.956006646156311,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9120132327079773,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 401",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.9120132327079773,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "C"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_7",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "C"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 401",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1547,
+            "x": 321,
+            "y": 2049
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9605101346969604,
+        "method": "NONE",
+        "value": "ACCT 402"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_8",
+      "final": {
+        "confidence": 0.9802550077438354,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 402"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9802550077438354,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9605101346969604,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 402",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9605101346969604,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 402"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Management Accounting"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_8",
+      "final": {
+        "confidence": 0.9780389070510864,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Management Accounting"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.9780389070510864,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9640779495239258,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 402",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9640779495239258,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Management Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_8",
+      "final": {
+        "confidence": 0.9837466478347778,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9837466478347778,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9674932956695557,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 402",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9674932956695557,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2146
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_8",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 402",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 2150
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "FINC 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_9",
+      "final": {
+        "confidence": 0.9603654146194458,
+        "llm_required": false,
+        "trusted": true,
+        "value": "FINC 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9603654146194458,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9207309484481812,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9207309484481812,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "FINC 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9666582345962524,
+        "method": "NONE",
+        "value": "Corporate Finance"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_9",
+      "final": {
+        "confidence": 0.9633290767669678,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Corporate Finance"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9633290767669678,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9666582345962524,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9666582345962524,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Corporate Finance"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_9",
+      "final": {
+        "confidence": 0.9837477207183838,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9837477207183838,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9674955010414124,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9674955010414124,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2242
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "B"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_9",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "B"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: FINC 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2246
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "ACCT 601"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_10",
+      "final": {
+        "confidence": 0.9769060611724854,
+        "llm_required": false,
+        "trusted": true,
+        "value": "ACCT 601"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9769060611724854,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9538121223449707,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 601",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9538121223449707,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "ACCT 601"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Research in Accounting"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_10",
+      "final": {
+        "confidence": 0.9701025485992432,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Research in Accounting"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9366666674613953,
+        "final_confidence": 0.9701025485992432,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9655384421348572,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 601",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9655384421348572,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Research in Accounting"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_10",
+      "final": {
+        "confidence": 0.9846252202987671,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9846252202987671,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9692504405975342,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 601",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9692504405975342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2338
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "B"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_10",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "B"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: ACCT 601",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2342
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "BUSI 499"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_11",
+      "final": {
+        "confidence": 0.9644739627838135,
+        "llm_required": false,
+        "trusted": true,
+        "value": "BUSI 499"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9644739627838135,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9289478659629822,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 499",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9289478659629822,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "BUSI 499"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9334127902984619,
+        "method": "NONE",
+        "value": "Personal and Professional Development"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_11",
+      "final": {
+        "confidence": 0.9467064142227173,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Personal and Professional Development"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9467064142227173,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9334127902984619,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 499",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9334127902984619,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Personal and Professional Development"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_11",
+      "final": {
+        "confidence": 0.9230407476425171,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9230407476425171,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.8460816144943237,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 499",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.8460816144943237,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1544,
+            "x": 325,
+            "y": 2435
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "B"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_11",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "B"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: BUSI 499",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2439
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "AUDT 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_12",
+      "final": {
+        "confidence": 0.9680811166763306,
+        "llm_required": false,
+        "trusted": true,
+        "value": "AUDT 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9680811166763306,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9361622333526611,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: AUDT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9361622333526611,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "AUDT 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Introduction to Auditing Theory and"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_12",
+      "final": {
+        "confidence": 0.96868896484375,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Introduction to Auditing Theory and"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9279999732971191,
+        "final_confidence": 0.96868896484375,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9661779403686523,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: AUDT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9661779403686523,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Introduction to Auditing Theory and"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_12",
+      "final": {
+        "confidence": 0.9846252202987671,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9846252202987671,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9692504405975342,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: AUDT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 0.9692504405975342,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1548,
+            "x": 321,
+            "y": 2531
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "B"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_12",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "B"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: AUDT 301",
+        "Credits: 3",
+        "Grade: B"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 22,
+            "x": 1847,
+            "y": 2535
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "B"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "table",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Practice"
+      },
+      "fate": "PRESERVED",
+      "field": "table_row",
+      "field_id": "row_generic_1",
+      "final": {
+        "confidence": 0.9496383666992188,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Practice"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.9496383666992188,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9672766923904419,
+        "structural_score": 0.800000011920929
+      },
+      "is_semantic_valid": true,
+      "original": {
+        "confidence": 0.9672766923904419,
+        "source": {
+          "bbox": {
+            "height": 28,
+            "width": 146,
+            "x": 757,
+            "y": 2587
+          },
+          "page": 1
+        },
+        "value": "Practice"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "VALUE_FOR_LABEL",
+      "structural_class": "DATA"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "MIS 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_13",
+      "final": {
+        "confidence": 0.977349042892456,
+        "llm_required": false,
+        "trusted": true,
+        "value": "MIS 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.977349042892456,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9546982049942017,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: MIS 301",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9546982049942017,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "MIS 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9700000286102295,
+        "method": "NONE",
+        "value": "Management Information Systems"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_13",
+      "final": {
+        "confidence": 0.9749178886413574,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Management Information Systems"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.9800000190734863,
+        "final_confidence": 0.9749178886413574,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9578357338905334,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: MIS 301",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9578357338905334,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Management Information Systems"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_13",
+      "final": {
+        "confidence": 0.9836016893386841,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9836016893386841,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9672033786773682,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: MIS 301",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 0.9672033786773682,
+        "source": {
+          "bbox": {
+            "height": 44,
+            "width": 1563,
+            "x": 306,
+            "y": 2680
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "A"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_13",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "A"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: MIS 301",
+        "Credits: 3",
+        "Grade: A"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 27,
+            "width": 26,
+            "x": 1843,
+            "y": 2684
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "A"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "LAW 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_14",
+      "final": {
+        "confidence": 0.9723556041717529,
+        "llm_required": false,
+        "trusted": true,
+        "value": "LAW 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9723556041717529,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9447112679481506,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: LAW 301",
+        "Credits: 2",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.9447112679481506,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "LAW 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.8952786326408386,
+        "method": "NONE",
+        "value": "Corporate and Business Law 2 Cc"
+      },
+      "fate": "PRESERVED",
+      "field": "course_title",
+      "field_id": "field_course_title_14",
+      "final": {
+        "confidence": 0.9276392459869385,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Corporate and Business Law 2 Cc"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9276392459869385,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.8952786326408386,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: LAW 301",
+        "Credits: 2",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.8952786326408386,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Corporate and Business Law 2 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "2"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_14",
+      "final": {
+        "confidence": 0.9538184404373169,
+        "llm_required": false,
+        "trusted": true,
+        "value": "2"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9538184404373169,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9076368808746338,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: LAW 301",
+        "Credits: 2",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.9076368808746338,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "2"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "C"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_14",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "C"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: LAW 301",
+        "Credits: 2",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 43,
+            "width": 1562,
+            "x": 306,
+            "y": 2776
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9599999785423279,
+        "method": "NONE",
+        "value": "TAX 301"
+      },
+      "fate": "PRESERVED",
+      "field": "course_code",
+      "field_id": "field_course_code_15",
+      "final": {
+        "confidence": 0.9748156070709229,
+        "llm_required": false,
+        "trusted": true,
+        "value": "TAX 301"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9748156070709229,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.9496312141418457,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: TAX 301",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.9496312141418457,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "course_code",
+          "page": 1
+        },
+        "value": "TAX 301"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_code",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": true,
+        "candidates": [
+          {
+            "confidence": 0.8589994311332703,
+            "context_score": 0.0,
+            "dictionary_score": 1.0,
+            "method": "CHARACTER_CONFUSION_AND_DICTIONARY",
+            "reason": "Character confusion and domain dictionary match",
+            "similarity_score": 0.9545454382896423,
+            "value": "Personal Taxation E Cc"
+          }
+        ],
+        "confidence": 0.8889994025230408,
+        "method": "CHARACTER_CONFUSION_AND_DICTIONARY",
+        "provenance": "Deterministic vocabulary & confusion correction",
+        "value": "Personal Taxation E Cc"
+      },
+      "fate": "CORRECTED",
+      "field": "course_title",
+      "field_id": "field_course_title_15",
+      "final": {
+        "confidence": 0.9155494570732117,
+        "llm_required": false,
+        "trusted": true,
+        "value": "Personal Taxation E Cc"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 0.8999999761581421,
+        "final_confidence": 0.9155494570732117,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.847998857498169,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: TAX 301",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.847998857498169,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "course_title",
+          "page": 1
+        },
+        "value": "Personal Taxation 3 Cc"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_course_title",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 0.9800000190734863,
+        "method": "NONE",
+        "value": "3"
+      },
+      "fate": "PRESERVED",
+      "field": "credits",
+      "field_id": "field_credits_15",
+      "final": {
+        "confidence": 0.9409381151199341,
+        "llm_required": false,
+        "trusted": true,
+        "value": "3"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 0.9409381151199341,
+        "fuzzy_score": 1.0,
+        "original_confidence": 0.8818762898445129,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: TAX 301",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 0.8818762898445129,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "credits",
+          "page": 1
+        },
+        "value": "3"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_credits",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    },
+    {
+      "ai_attempt_count": 0,
+      "ai_workflow_state": "NOT_STARTED",
+      "category": "course_record",
+      "correction": {
+        "applied": false,
+        "confidence": 1.0,
+        "method": "NONE",
+        "value": "C"
+      },
+      "fate": "PRESERVED",
+      "field": "grade",
+      "field_id": "field_grade_15",
+      "final": {
+        "confidence": 1.0,
+        "llm_required": false,
+        "trusted": true,
+        "value": "C"
+      },
+      "fusion": {
+        "context_score": 1.0,
+        "dictionary_score": 1.0,
+        "final_confidence": 1.0,
+        "fuzzy_score": 1.0,
+        "original_confidence": 1.0,
+        "structural_score": 1.0
+      },
+      "is_semantic_valid": true,
+      "label_block_id": "table_p1_1",
+      "nearby_evidence": [
+        "Code: TAX 301",
+        "Credits: 3",
+        "Grade: C"
+      ],
+      "original": {
+        "confidence": 1.0,
+        "source": {
+          "bbox": {
+            "height": 42,
+            "width": 1547,
+            "x": 321,
+            "y": 2872
+          },
+          "field": "grade",
+          "page": 1
+        },
+        "value": "C"
+      },
+      "resolution": {
+        "method": "DETERMINISTIC",
+        "status": "DETERMINISTIC"
+      },
+      "resolution_status": "DETERMINISTIC",
+      "resolution_strategy": "NONE",
+      "semantic_relationship": "TABLE_COLUMN_ASSOCIATION",
+      "source_block_id": "block_src_grade",
+      "status": "COMPLETED",
+      "structural_class": "COURSE_ROW"
+    }
+  ],
+  "identity": {
+    "birthdate": "Jun 261997",
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "schema_version": "evidence-full-0.1",
+  "tables": [
+    {
+      "columns": [
+        {
+          "canonical_name": "course_code",
+          "column_index": 0,
+          "confidence": 0.0,
+          "name": "course_code"
+        },
+        {
+          "canonical_name": "course_title",
+          "column_index": 1,
+          "confidence": 0.0,
+          "name": "course_title"
+        },
+        {
+          "canonical_name": "credits",
+          "column_index": 2,
+          "confidence": 0.0,
+          "name": "credits"
+        },
+        {
+          "canonical_name": "grade",
+          "column_index": 3,
+          "confidence": 0.0,
+          "name": "grade"
+        }
+      ],
+      "confidence": {
+        "low_confidence_token_count": 1,
+        "maximum": 0.9692546725273132,
+        "mean": 0.9314772486686707,
+        "minimum": 0.0,
+        "token_count": 56
+      },
+      "fate": "STRUCTURED",
+      "has_header": true,
+      "id": "table_p1_1",
+      "page_end": 1,
+      "page_start": 1,
+      "rows": [
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9555448293685913,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 296,
+                  "x": 321,
+                  "y": 1472
+                },
+                "page": 1
+              },
+              "text": "ACCT 101"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9599485397338867,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 358,
+                  "x": 757,
+                  "y": 1475
+                },
+                "page": 1
+              },
+              "text": "Intro to Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9682745933532715,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9599707126617432,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1476
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9605339765548706,
+          "course_code": "ACCT 101",
+          "course_title": "Intro to Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1472
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9630615711212158,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 306,
+                  "x": 321,
+                  "y": 1568
+                },
+                "page": 1
+              },
+              "text": "ACCT 102"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9265183210372925,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 536,
+                  "x": 757,
+                  "y": 1571
+                },
+                "page": 1
+              },
+              "text": "Introduction to Accounting II"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9690414667129517,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9585071802139282,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1572
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9449681043624878,
+          "course_code": "ACCT 102",
+          "course_title": "Introduction to Accounting II",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1568
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9276198148727417,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 299,
+                  "x": 325,
+                  "y": 1664
+                },
+                "page": 1
+              },
+              "text": "FINC 201"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.962928056716919,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 720,
+                  "x": 757,
+                  "y": 1667
+                },
+                "page": 1
+              },
+              "text": "Raising Individual Financial Awareness"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9683562517166138,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9603720903396606,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1668
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.954460084438324,
+          "course_code": "FINC 201",
+          "course_title": "Raising Individual Financial Awareness",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1664
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9500497579574585,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 309,
+                  "x": 325,
+                  "y": 1760
+                },
+                "page": 1
+              },
+              "text": "BUSI 203"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9603411555290222,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 29,
+                  "width": 498,
+                  "x": 757,
+                  "y": 1763
+                },
+                "page": 1
+              },
+              "text": "Essential Information Skills"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9683562517166138,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9653763771057129,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1764
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9592651128768921,
+          "course_code": "BUSI 203",
+          "course_title": "Essential Information Skills",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1760
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9405897855758667,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 292,
+                  "x": 325,
+                  "y": 1857
+                },
+                "page": 1
+              },
+              "text": "BUSI 101"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9586968421936035,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 454,
+                  "x": 757,
+                  "y": 1860
+                },
+                "page": 1
+              },
+              "text": "Foundations of Business"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692546725273132,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9653763771057129,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 1861
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9559858441352844,
+          "course_code": "BUSI 101",
+          "course_title": "Foundations of Business",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1544,
+              "x": 325,
+              "y": 1857
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9556007385253906,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 1953
+                },
+                "page": 1
+              },
+              "text": "ACCT 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9655876755714417,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 555,
+                  "x": 757,
+                  "y": 1956
+                },
+                "page": 1
+              },
+              "text": "Business Accounting Systems"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9678488969802856,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.928418755531311,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 1957
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9577473998069763,
+          "course_code": "ACCT 301",
+          "course_title": "Business Accounting Systems",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 1953
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9513061046600342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 307,
+                  "x": 321,
+                  "y": 2049
+                },
+                "page": 1
+              },
+              "text": "ACCT 401"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.898915708065033,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 1111,
+                  "x": 757,
+                  "y": 2052
+                },
+                "page": 1
+              },
+              "text": "Financial Accounting and Reporting 3 Cc"
+            }
+          ],
+          "confidence": 0.9120132327079773,
+          "course_code": "ACCT 401",
+          "course_title": "Financial Accounting and Reporting 3 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1547,
+              "x": 321,
+              "y": 2049
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9605101346969604,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 317,
+                  "x": 321,
+                  "y": 2146
+                },
+                "page": 1
+              },
+              "text": "ACCT 402"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9640779495239258,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 477,
+                  "x": 757,
+                  "y": 2149
+                },
+                "page": 1
+              },
+              "text": "Management Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9674932956695557,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9623765349388123,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2150
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9631743431091309,
+          "course_code": "ACCT 402",
+          "course_title": "Management Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2146
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9207309484481812,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 299,
+                  "x": 325,
+                  "y": 2242
+                },
+                "page": 1
+              },
+              "text": "FINC 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9666582345962524,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 342,
+                  "x": 755,
+                  "y": 2245
+                },
+                "page": 1
+              },
+              "text": "Corporate Finance"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9674955010414124,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9295358061790466,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2246
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9453016519546509,
+          "course_code": "FINC 301",
+          "course_title": "Corporate Finance",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2242
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9538121223449707,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 305,
+                  "x": 321,
+                  "y": 2338
+                },
+                "page": 1
+              },
+              "text": "ACCT 601"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9655384421348572,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 439,
+                  "x": 757,
+                  "y": 2341
+                },
+                "page": 1
+              },
+              "text": "Research in Accounting"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692504405975342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.928619384765625,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2342
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.9574442505836487,
+          "course_code": "ACCT 601",
+          "course_title": "Research in Accounting",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2338
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9289478659629822,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 312,
+                  "x": 325,
+                  "y": 2435
+                },
+                "page": 1
+              },
+              "text": "BUSI 499"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9334127902984619,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 745,
+                  "x": 757,
+                  "y": 2438
+                },
+                "page": 1
+              },
+              "text": "Personal and Professional Development"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.8460816144943237,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9281557202339172,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2439
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.920723021030426,
+          "course_code": "BUSI 499",
+          "course_title": "Personal and Professional Development",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1544,
+              "x": 325,
+              "y": 2435
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9361622333526611,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2531
+                },
+                "page": 1
+              },
+              "text": "AUDT 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9661779403686523,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 671,
+                  "x": 757,
+                  "y": 2534
+                },
+                "page": 1
+              },
+              "text": "Introduction to Auditing Theory and"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9692504405975342,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9284359812736511,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 22,
+                  "x": 1847,
+                  "y": 2535
+                },
+                "page": 1
+              },
+              "text": "B"
+            }
+          ],
+          "confidence": 0.955655574798584,
+          "course_code": "AUDT 301",
+          "course_title": "Introduction to Auditing Theory and",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "B",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1548,
+              "x": 321,
+              "y": 2531
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9672766923904419,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 146,
+                  "x": 757,
+                  "y": 2587
+                },
+                "page": 1
+              },
+              "text": "Practice"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.0,
+              "fate": "STRUCTURED",
+              "source": {
+                "page": 1
+              },
+              "text": ""
+            }
+          ],
+          "confidence": 0.9672766923904419,
+          "course_code": "Practice",
+          "course_title": "",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 28,
+              "width": 146,
+              "x": 757,
+              "y": 2587
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9546982049942017,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 44,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2680
+                },
+                "page": 1
+              },
+              "text": "MIS 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.9578357338905334,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 36,
+                  "width": 650,
+                  "x": 757,
+                  "y": 2683
+                },
+                "page": 1
+              },
+              "text": "Management Information Systems"
+            },
+            {
+              "canonical_name": "credits",
+              "confidence": 0.9672033786773682,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 28,
+                  "width": 19,
+                  "x": 1569,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "3"
+            },
+            {
+              "canonical_name": "grade",
+              "confidence": 0.9595146179199219,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 27,
+                  "width": 26,
+                  "x": 1843,
+                  "y": 2684
+                },
+                "page": 1
+              },
+              "text": "A"
+            }
+          ],
+          "confidence": 0.9585173726081848,
+          "course_code": "MIS 301",
+          "course_title": "Management Information Systems",
+          "credits": "3",
+          "fate": "STRUCTURED",
+          "grade": "A",
+          "source": {
+            "bbox": {
+              "height": 44,
+              "width": 1563,
+              "x": 306,
+              "y": 2680
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9447112679481506,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 43,
+                  "width": 318,
+                  "x": 306,
+                  "y": 2776
+                },
+                "page": 1
+              },
+              "text": "LAW 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.8952786326408386,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 35,
+                  "width": 1113,
+                  "x": 755,
+                  "y": 2779
+                },
+                "page": 1
+              },
+              "text": "Corporate and Business Law 2 Cc"
+            }
+          ],
+          "confidence": 0.9076368808746338,
+          "course_code": "LAW 301",
+          "course_title": "Corporate and Business Law 2 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 43,
+              "width": 1562,
+              "x": 306,
+              "y": 2776
+            },
+            "page": 1
+          }
+        },
+        {
+          "cells": [
+            {
+              "canonical_name": "course_code",
+              "confidence": 0.9496312141418457,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 42,
+                  "width": 303,
+                  "x": 321,
+                  "y": 2872
+                },
+                "page": 1
+              },
+              "text": "TAX 301"
+            },
+            {
+              "canonical_name": "course_title",
+              "confidence": 0.847998857498169,
+              "fate": "STRUCTURED",
+              "source": {
+                "bbox": {
+                  "height": 29,
+                  "width": 1111,
+                  "x": 757,
+                  "y": 2876
+                },
+                "page": 1
+              },
+              "text": "Personal Taxation 3 Cc"
+            }
+          ],
+          "confidence": 0.8818762898445129,
+          "course_code": "TAX 301",
+          "course_title": "Personal Taxation 3 Cc",
+          "fate": "STRUCTURED",
+          "source": {
+            "bbox": {
+              "height": 42,
+              "width": 1547,
+              "x": 321,
+              "y": 2872
+            },
+            "page": 1
+          }
+        }
+      ],
+      "source": {
+        "bbox": {
+          "height": 1442,
+          "width": 1563,
+          "x": 306,
+          "y": 1472
+        },
+        "page": 1
+      },
+      "table_type": "course_records"
+    }
+  ]
+}

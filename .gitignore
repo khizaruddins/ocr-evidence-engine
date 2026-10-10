@@ -1,0 +1,29 @@
+# Build directories
+build/
+bin/
+lib/
+out/
+cmake-build-*/
+.cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debug output directories
+debug/
+debug_output/
+test_output/
+results/
+batch_results/
+
+# Dependency directories
+_deps/
+vcpkg_installed/
+
+# OS specific
+.DS_Store
+Thumbs.db

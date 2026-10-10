@@ -1,0 +1,13 @@
+{
+  "document_id": "sophia_auto",
+  "execution_time_ms": 1,
+  "fields_missing": 3,
+  "fields_projected": 64,
+  "fields_with_deterministic_resolution": 2,
+  "fields_with_llm_resolution": 0,
+  "llm_used": false,
+  "overall_confidence": 0.9124813079833984,
+  "schema_version": "finalization-report-0.1",
+  "source": "enhanced_edr",
+  "status": "COMPLETED"
+}

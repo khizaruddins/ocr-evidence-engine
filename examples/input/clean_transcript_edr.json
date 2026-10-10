@@ -1,0 +1,62 @@
+{
+  "schema_version": "edr-0.1",
+  "document": {
+    "id": "doc_clean_transcript_001",
+    "page_count": 1,
+    "source": "clean_transcript.pdf",
+    "type": "transcript"
+  },
+  "engine": {
+    "name": "edmo-ocr",
+    "provider": "tesseract",
+    "version": "0.1.0"
+  },
+  "confidence": {
+    "mean": 0.98,
+    "minimum": 0.96,
+    "maximum": 0.99,
+    "token_count": 20,
+    "low_confidence_token_count": 0
+  },
+  "identity": {
+    "student_id": "2291829",
+    "student_name": "Sophia Jones"
+  },
+  "institution": {
+    "name": "University of Oxford"
+  },
+  "academic": {
+    "degree": "Bachelor of Science"
+  },
+  "tables": [
+    {
+      "id": "table_1",
+      "table_type": "course_records",
+      "page_start": 1,
+      "page_end": 1,
+      "has_header": true,
+      "columns": [
+        { "name": "COURSE CODE", "canonical_name": "course_code", "column_index": 0, "confidence": 0.98 },
+        { "name": "COURSE TITLE", "canonical_name": "course_title", "column_index": 1, "confidence": 0.98 },
+        { "name": "CREDITS", "canonical_name": "credits", "column_index": 2, "confidence": 0.98 },
+        { "name": "GRADE", "canonical_name": "grade", "column_index": 3, "confidence": 0.98 }
+      ],
+      "rows": [
+        {
+          "course_code": "ACCT 101",
+          "course_title": "Financial Accounting",
+          "credits": "3",
+          "grade": "A",
+          "confidence": 0.98
+        },
+        {
+          "course_code": "CS 101",
+          "course_title": "Introduction to Computer Science",
+          "credits": "4",
+          "grade": "A+",
+          "confidence": 0.97
+        }
+      ]
+    }
+  ]
+}
